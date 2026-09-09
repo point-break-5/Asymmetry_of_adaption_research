@@ -226,6 +226,39 @@ def encode_pair(tokenizer, messages: list[dict]) -> tuple[list[int], list[int]]:
             chat_ids(tokenizer, messages, add_generation_prompt=False))
 
 
+def make_training_args(training_arguments_cls, *, warmup_ratio: float | None = None,
+                       total_steps: int | None = None, **kw):
+    """Build TrainingArguments across transformers versions. Returns (args, dropped).
+
+    Version drift this handles:
+      * `evaluation_strategy` was renamed `eval_strategy` in 4.46 and removed in 5.x.
+      * `warmup_ratio` was removed in 5.x; `warmup_steps` remains, so the ratio is converted
+        against the real step count.
+
+    Introspecting the signature beats a try/except chain, which reports whichever argument
+    the *fallback* tripped over rather than the one actually at fault -- e.g. a rejected
+    `warmup_ratio` surfacing as "unexpected keyword argument 'evaluation_strategy'".
+    """
+    import inspect
+
+    sig = set(inspect.signature(training_arguments_cls.__init__).parameters)
+
+    if "eval_strategy" in kw and "eval_strategy" not in sig:
+        if "evaluation_strategy" in sig:
+            kw["evaluation_strategy"] = kw.pop("eval_strategy")
+
+    if warmup_ratio:
+        if "warmup_ratio" in sig:
+            kw["warmup_ratio"] = warmup_ratio
+        elif "warmup_steps" in sig and total_steps:
+            kw["warmup_steps"] = max(1, int(round(warmup_ratio * total_steps)))
+
+    dropped = sorted(k for k in kw if k not in sig)
+    for k in dropped:
+        kw.pop(k)
+    return training_arguments_cls(**kw), dropped
+
+
 def save_split(path: Path, train_ids, test_ids, meta: dict | None = None) -> None:
     """Persist the split so the post-training evaluation scores the same held-out events."""
     path.parent.mkdir(parents=True, exist_ok=True)
