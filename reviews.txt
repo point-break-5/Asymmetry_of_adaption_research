@@ -1,0 +1,137 @@
+Official Review of Submission8397 by Reviewer Rx1G
+Official Reviewby Reviewer Rx1G06 Jul 2026, 01:48 (modified: 03 Aug 2026, 21:43)Program Chairs, Senior Area Chairs, Area Chairs, Reviewers Submitted, Authors, Reviewer Rx1G, Commitment ReadersRevisions
+Paper Summary:
+The paper investigates whether LLMs maintain information equity when interacting with users of varying literacy levels. While LLMs are celebrated for democratizing access to specialist knowledge by simplifying complex materials, the study studies whether that simplification comes at the cost of losing critical, actionable information in high-stakes scenarios. The more interesting point is that in their experiments, they have "implicit" literacy levels, and even then, the LLM shows the information equity gap.
+
+Summary Of Strengths:
+The paper makes a compelling conceptual contribution by shifting the conversation around LLM adaptation from surface-level readability to substantive information equity. While prior work thoroughly explores persona-conditioned text simplification, this paper introduces an important distinction, i.e. whether the underlying information (e.g., explicit legal thresholds, regulatory citations, and procedural exceptions) is preserved.
+
+The experimental design is very thorough. By evaluating both explicit declaration (stated persona) and implicit inference (nuances in question phrasing), the authors capture realistic user-interaction paradigms. Additionally, the measurement framework goes well beyond basic readability metrics to incorporate a multi-dimensional analysis using dense vector semantic similarity loss, logical entailment via cross-encoder NLI, and category-driven entity extraction. This multi-pronged approach ensures that the observed "asymmetry of adaptation" is structurally validated rather than a mere byproduct of response length or phrasing.
+
+The evaluation is highly impactful due to its focus on high-stakes, real-world scenarios. The curation of a dedicated dataset containing 250 distinct scenarios across 32 safety-critical domains (including GDPR, medical safety, and refugee rights) grounds the study in domains where informational omissions carry tangible consequences.
+
+Summary Of Weaknesses:
+While the two-stage prompting framework for the implicit condition is methodologically clever, the reliance on LLMs (GPT-4, Claude, etc.) to generate the "low-literacy" questions introduces a potential confound. LLM-generated casual or low-register queries often rely on highly stereotyped markers of low literacy (e.g., explicit grammatical errors, colloquialisms, or extreme brevity) rather than the nuanced syntactic structures observed in actual human distributions. The paper would be significantly strengthened if the authors validated their synthetic prompt dataset against real-world user query logs or corpus data to ensure the models were reacting to realistic literacy signals.
+
+The paper is highly effective at diagnosing the "asymmetry of adaptation," but it stops short of explaining why it occurs or how to fix it. It remains unclear whether this is primarily driven by RLHF alignments (e.g., safety filters over-indexing on simple language to avoid user confusion) or a fundamental token-prediction decay when conditioned on low-register context window cues. Discussing or experimenting with basic mitigation strategies, such as testing whether system-level instructions like "Simulate a lower linguistic register while strictly maintaining entity and structural parity" can reduce the issue, would improve the paper from a purely observational audit to a more impactful and solution-oriented contribution.
+
+Comments Suggestions And Typos:
+To strengthen the implicit inference condition, consider validating the LLM-generated queries against a small corpus of real-world user data or search logs. This would confirm that the models are responding to authentic linguistic signatures of lower literacy rather than synthetic caricatures or stereotyped markers of casual phrasing.
+
+The paper would be significantly more impactful if it explored potential algorithmic solutions alongside the audit. Testing whether simple system-level interventions, such as explicitly instructing the model to “reduce linguistic register while strictly maintaining structural and entity parity”, can reduce information loss would provide a valuable path forward for practitioners.
+
+Confidence: 4 = Quite sure. I tried to check the important points carefully. It's unlikely, though conceivable, that I missed something that should affect my ratings.
+Soundness: 4 = Strong: This study provides sufficient support for all of its claims. Some extra experiments could be nice, but not essential.
+Excitement: 3.5
+Overall Assessment: 3 = Findings: I think this paper could be accepted to the Findings of the ACL.
+Limitations And Societal Impact:
+NA
+
+Ethical Concerns:
+There are no concerns with this submission
+
+Needs Ethics Review: No
+Reproducibility: 4 = They could mostly reproduce the results, but there may be some variation because of sample variance or minor variations in their interpretation of the protocol or method.
+Datasets: 4 = Useful: I would recommend the new datasets to other researchers or developers for their ongoing work.
+Software: 1 = No usable software released.
+Knowledge Of Or Educated Guess At Author Identity: No
+Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Knowledge Of Paper Source: N/A, I do not know anything about the paper from outside sources
+Impact Of Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Reviewer Certification: I certify that the review I entered accurately reflects my assessment of the work. If you used any type of automated tool to help you craft your review, I hereby certify that its use was restricted to improving grammar and style, and the substance of the review is either my own work or the work of an acknowledged secondary reviewer.
+Publication Ethics Policy Compliance: I used a privacy-preserving tool exclusively for the use case(s) approved by PEC policy, such as language edits
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+Official Review of Submission8397 by Reviewer LMyV
+Official Reviewby Reviewer LMyV02 Jul 2026, 20:03 (modified: 03 Aug 2026, 21:43)Program Chairs, Senior Area Chairs, Area Chairs, Reviewers Submitted, Authors, Reviewer LMyV, Commitment ReadersRevisions
+Paper Summary:
+The authors prompt models under explicit and implicit conditions, varying the apparent topic literacy of the user on high-stakes topics, and analyze the resulting model behavior. They find that LLMs adapt their linguistic and stylistic register to the user's apparent literacy level, and further provide evidence that the semantic content changes as well.
+
+Summary Of Strengths:
+The authors run a wide range of analyses and metrics, including statistical tests, to support their hypothesis.
+I believe the topic is important; however, as it stands, it is not well motivated in my opinion (see Weaknesses).
+Summary Of Weaknesses:
+I am not convinced by the implicit-condition setup. How did the authors ensure that the generated questions are at a comparable level of detail? At the lowest literacy level, the questions may be surface-level, whereas at higher levels they may ask for specifics — a difference that will naturally be reflected in the form of the model's answer. A quality check of the generated questions seems necessary; without it, confounding factors like this one can easily enter the setup.
+The motivation is weak, and I am not convinced the setup captures the intended hypothesis: "users with different levels of prior expertise should be able to access comparable substantive information through natural language." What the authors actually do is ask a model to explain a topic to a user with low topic literacy. This behavior does not necessarily contradict the hypothesis: a low-expertise user might still access the same information through follow-up questions. Moreover, I do not agree that "comparable-level information" must be conveyed in the model's first response. For example, omitting an article number in a legal text while describing its content verbally could be the preferable answer for a low-expertise user. This weakens the paper's foundation: despite the many analyses, the setup may simply capture expected — or even intended — model behavior. I would encourage the authors to make a stronger case for why this adaptation should be treated as a problem rather than desirable behavior.
+I am not convinced that "comparable-level information" is actually captured by the metrics used.
+Semantic similarity: I doubt this isolates information content from linguistic style. Two responses conveying the same level of information but phrased very differently (as expected when register is adapted) may score as dissimilar, and vice versa. A robustness check would help here.
+NLI: I am not sure what the authors intend to establish with this. They state: "contradiction probability remains below 0.05, while the entailment drop is mirrored by a near-equal rise in neutral probability. The simplified responses are not stating things that disagree with the reference; they are stating less." Please clarify how a rise in neutral probability supports the conclusion that the simplified responses "state less".
+I am open for discussion on these points.
+
+Comments Suggestions And Typos:
+--
+
+Confidence: 3 =  Pretty sure, but there's a chance I missed something. Although I have a good feel for this area in general, I did not carefully check the paper's details, e.g., the math or experimental design.
+Soundness: 2.5
+Excitement: 4 = Exciting: I would mention this paper to others and/or make an effort to attend its presentation in a conference.
+Overall Assessment: 2.5 = Borderline Findings
+Ethical Concerns:
+There are no concerns with this submission
+
+Needs Ethics Review: No
+Reproducibility: 4 = They could mostly reproduce the results, but there may be some variation because of sample variance or minor variations in their interpretation of the protocol or method.
+Datasets: 1 = No usable datasets submitted.
+Software: 1 = No usable software released.
+Knowledge Of Or Educated Guess At Author Identity: No
+Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Knowledge Of Paper Source: N/A, I do not know anything about the paper from outside sources
+Impact Of Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Reviewer Certification: I certify that the review I entered accurately reflects my assessment of the work. If you used any type of automated tool to help you craft your review, I hereby certify that its use was restricted to improving grammar and style, and the substance of the review is either my own work or the work of an acknowledged secondary reviewer.
+Publication Ethics Policy Compliance: I used a privacy-preserving tool exclusively for the use case(s) approved by PEC policy, such as language edits
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+Official Review of Submission8397 by Reviewer DBiM
+Official Reviewby Reviewer DBiM02 Jul 2026, 00:40 (modified: 03 Aug 2026, 21:43)Program Chairs, Senior Area Chairs, Area Chairs, Reviewers Submitted, Authors, Reviewer DBiM, Commitment ReadersRevisions
+Paper Summary:
+The paper studies how LLM responses change according to user literacy on the topic, which is supplied either explicitly in the prompt, or implicitly through the question. Across a dataset of 250 high-stakes scenarios and three literacy levels, they measure metrics that capture linguistic adaptation, substantive content changes, and stylistic and informational posture. Findings demonstrate that adaptation to user-signalled literacy is accompanied by differences in substantive content, semantic alignment, and logical entailment.
+
+Summary Of Strengths:
+The paper is overall strong and comprehensive:
+
+The motivation and distinction between linguistic/substantive adaption is timely and interesting.
+The experimental design and analysis is sound, and the metrics used are well-motivated and grounded in the literature.
+The use of several metrics for each dimension of study further strengthens the findings.
+The statistical tests used to demonstrate effect sizes are rigorous.
+Thorough limitations section
+Summary Of Weaknesses:
+There are some weaknesses/limitations (some of which the authors also acknowledge):
+
+Independent ground truth: the high-literacy response is used as the reference, but it's not established that this response is accurate / high-quality. This has consequences for whether diverging from this response is actually undesirable.
+Relatedly, I had an overarching question/concern about what the ideal behavior is here (which likely also depends on the user's context). Is the low-literacy response actually harmful -- or, e.g., does the short / simple language actually provide a stronger basis for understanding and asking follow-up questions? More entities mentioned & details included may not always be more informative or directly relevant to the user's goals. More generally, there is an underlying assumption that the high-literacy response is the maximal, complete rendering of what a user is entitled to know, but this is not obviously true. The authors do state: "we do not claim that high-literacy responses are universal gold standards... nor that more detailed responses are inherently better." But the experiments center around a high-literacy reference and divergence is framed as evidence of harm ("informational collapse," "service asymmetry," "conceptual hollowing").
+Implicit prompt: What do the implicit prompts look like? Some examples would be useful. E.g., does the model end up inserting explicit literacy indicators in the question, or is it more subtle wording changes?
+Explicit prompt: The explicit condition's system prompt ("You are a helpful assistant that adapts to the user's literacy level") explicitly instructs the model to adapt, but doesn't say anything about preserving substantive content at the same time. This instruction feels like it's set up to produce the observed behavior; instead, why not either instruct the model to adapt while preserving substantive content, or leave it open-ended (as in the implicit condition)?
+Length as a confounder: most substantive content metrics are sensitive to response length, and low-literacy responses are consistently shorter. Without a length-matched or length-normalized control, it's hard to know how much of the stratification is reflective of content omission vs a byproduct of writing less.
+Comments Suggestions And Typos:
+Either (a) more consistently frame the metrics as measuring divergence, which is a necessary but not sufficient signal of harm, or (b) add a small expert-review pass on a subset of events to distinguish omissions that are consequential from those that aren't. This would help separate benign simplification from harmful omission, rather than treating all divergence from a high-literacy reference as equally concerning.
+Add experiments that control for length to more clearly support the central claim.
+It would help to see representative examples of implicit-condition questions across the three levels for the same topic, to assess (a) how strong/subtle the literacy signal actually is in practice (e.g., does "low literacy" phrasing look like natural informal speech, or an exaggerated caricature of unfamiliarity?) and (b) whether the question-generation step leaks explicit signals (e.g. giveaway phrases functionally equivalent to a literacy declaration, which would make the implicit condition less distinct from the explicit one than intended).
+Confidence: 4 = Quite sure. I tried to check the important points carefully. It's unlikely, though conceivable, that I missed something that should affect my ratings.
+Soundness: 3.5
+Excitement: 4 = Exciting: I would mention this paper to others and/or make an effort to attend its presentation in a conference.
+Overall Assessment: 3.5 = Borderline Conference
+Ethical Concerns:
+There are no concerns with this submission
+
+Needs Ethics Review: No
+Reproducibility: 4 = They could mostly reproduce the results, but there may be some variation because of sample variance or minor variations in their interpretation of the protocol or method.
+Datasets: 3 = Potentially useful: Someone might find the new datasets useful for their work.
+Software: 3 = Potentially useful: Someone might find the new software useful for their work.
+Knowledge Of Or Educated Guess At Author Identity: No
+Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Knowledge Of Paper Source: N/A, I do not know anything about the paper from outside sources
+Impact Of Knowledge Of Paper: N/A, I do not know anything about the paper from outside sources
+Reviewer Certification: I certify that the review I entered accurately reflects my assessment of the work. If you used any type of automated tool to help you craft your review, I hereby certify that its use was restricted to improving grammar and style, and the substance of the review is either my own work or the work of an acknowledged secondary reviewer.
+Publication Ethics Policy Compliance: I used a privacy-preserving tool exclusively for the use case(s) approved by PEC policy, such as language edits
+
+

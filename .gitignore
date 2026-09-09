@@ -1,0 +1,25 @@
+# Python virtual environment (6.7 GB)
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Secrets
+.env
+*.key
+
+# Fine-tuned model weights and checkpoints
+models/
+*.safetensors
+*.bin
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Snapshot archive of this repo's own contents (duplicates tracked files)
+research.zip

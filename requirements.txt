@@ -1,0 +1,24 @@
+# Core data + notebook
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+matplotlib>=3.8
+seaborn>=0.13
+nbformat>=5.10
+jupyterlab>=4.2
+textstat>=0.7.5
+rouge-score>=0.1.2
+
+# HF / local Qwen fine-tuning
+torch>=2.6
+transformers>=4.55
+accelerate>=1.7
+peft>=0.15
+trl>=0.18
+datasets>=3.5
+bitsandbytes>=0.45
+sentence-transformers>=4.0
+
+# Optional Gemini entity extraction for new generations
+python-dotenv>=1.0
+google-generativeai>=0.8

@@ -1,0 +1,193 @@
+"""Data preparation for parity fine-tuning.
+
+Builds supervised examples from newly_generated_answers/explicit_answers_local_base.csv.
+
+The training signal is a *contrast*, not a single behaviour. Each event contributes three
+examples that share the same topic and differ only in the declared literacy level:
+
+    High -> the model's own original High response  (anchor: don't lose expert behaviour)
+    Mid  -> the parity rewrite                      (target: simpler register, entities kept)
+    Low  -> the parity rewrite                      (target: simplest register, entities kept)
+
+Training only on Mid/Low would teach the model to write simply for everyone and quietly
+destroy the High-literacy behaviour the audit measures against. Including High with its own
+unchanged response anchors that end of the scale, so what the model learns is the mapping
+from literacy signal to register -- while holding content constant.
+
+Prompts are taken verbatim from the System_Prompt / User_Prompt columns, so what the model
+trains on is byte-identical to what it will be prompted with at evaluation time.
+"""
+from __future__ import annotations
+
+import csv
+import json
+import random
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+LEVELS = ["High Literacy", "Mid Literacy", "Low Literacy"]
+ANCHOR_LEVEL = "High Literacy"
+
+IGNORE_INDEX = -100
+
+
+def load_rows(path: Path) -> list[dict]:
+    csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
+    sep = "\t" if path.suffix.lower() in {".tsv", ".tab"} else ","
+    with open(path, newline="", encoding="utf-8") as fh:
+        return list(csv.DictReader(fh, delimiter=sep))
+
+
+def group_by_event(rows: list[dict]) -> dict[str, dict[str, dict]]:
+    by: dict[str, dict[str, dict]] = {}
+    for r in rows:
+        by.setdefault(r["ID"], {})[r["Literacy_Level"]] = r
+    return {k: v for k, v in by.items() if all(l in v for l in LEVELS)}
+
+
+def split_event_ids(event_ids, test_frac: float = 0.20, seed: int = 42):
+    """Event-level split, matching audit_utils.split_event_ids exactly.
+
+    Splitting on events rather than rows is the whole point: all three literacy levels of an
+    event are near-duplicates of one another, so a row-level split would put a paraphrase of
+    every test target into the training set.
+    """
+    ids = sorted(str(i) for i in event_ids)
+    rng = random.Random(seed)
+    rng.shuffle(ids)
+    n_test = max(1, round(len(ids) * test_frac))
+    return sorted(ids[n_test:]), sorted(ids[:n_test])
+
+
+# ---------------------------------------------------------------- target quality filter
+
+_ENTITY = re.compile(
+    r"\b(?:Article|Art\.|Section|Sec\.|Clause|Recital|Regulation|Directive|Paragraph)\s*\d+[A-Za-z0-9().\-]*"
+    r"|[€$£]\s?[\d,]+(?:\.\d+)?"
+    r"|\b\d+(?:\.\d+)?\s?%"
+    r"|\b\d+\s+(?:days?|weeks?|months?|years?|hours?|minutes?)\b"
+    r"|\b(?:19|20)\d{2}\b"
+    r"|\b\d[\d,]*(?:\.\d+)?\b",
+    re.IGNORECASE,
+)
+
+
+def _entities(text: str) -> set[str]:
+    return {re.sub(r"\s+", " ", m).strip().lower().rstrip(".") for m in _ENTITY.findall(text or "")}
+
+
+def entity_coverage(reference: str, candidate: str) -> float:
+    ref = _entities(reference)
+    return 1.0 if not ref else len(ref & _entities(candidate)) / len(ref)
+
+
+def build_records(events: dict[str, dict[str, dict]], keep_ids: set[str],
+                  target_column: str = "parity_answer",
+                  reference_column: str = "cleaned_answer",
+                  min_coverage: float = 0.85,
+                  balance_anchor: bool = True,
+                  seed: int = 42) -> tuple[list[dict], dict]:
+    """One record per (event, level). Returns (records, stats).
+
+    A Mid/Low target below `min_coverage` is dropped rather than trained on: the rewrite
+    distribution is bimodal (median 1.00, p10 0.17), and the bad tail actively teaches the
+    entity-dropping behaviour this fine-tune exists to remove. Anchor rows are always kept.
+    """
+    records, dropped = [], {"missing": 0, "low_coverage": 0, "empty": 0}
+
+    for eid in sorted(keep_ids):
+        ev = events.get(eid)
+        if not ev:
+            dropped["missing"] += 1
+            continue
+        high_ref = ev[ANCHOR_LEVEL].get(reference_column) or ""
+
+        for level in LEVELS:
+            row = ev[level]
+            target = (row.get(target_column) or "").strip()
+            if not target:
+                dropped["empty"] += 1
+                continue
+            if level != ANCHOR_LEVEL:
+                if entity_coverage(high_ref, target) < min_coverage:
+                    dropped["low_coverage"] += 1
+                    continue
+            records.append({
+                "event_id": eid,
+                "level": level,
+                "messages": [
+                    {"role": "system", "content": row["System_Prompt"]},
+                    {"role": "user", "content": row["User_Prompt"]},
+                    {"role": "assistant", "content": target},
+                ],
+            })
+
+    # Filtering removes only Mid/Low, so the anchor ends up over-represented (~47% of the
+    # set). Down-sampling it to the mean of the other two keeps the three levels balanced,
+    # so the contrast the model learns is not dominated by High-literacy examples.
+    if balance_anchor:
+        n_other = [sum(1 for r in records if r["level"] == l) for l in LEVELS if l != ANCHOR_LEVEL]
+        target_n = max(1, round(sum(n_other) / len(n_other)))
+        anchors = [r for r in records if r["level"] == ANCHOR_LEVEL]
+        if len(anchors) > target_n:
+            rng = random.Random(seed)
+            keep = set(id(r) for r in rng.sample(anchors, target_n))
+            records = [r for r in records if r["level"] != ANCHOR_LEVEL or id(r) in keep]
+            dropped["anchor_balanced"] = len(anchors) - target_n
+
+    records.sort(key=lambda r: (r["event_id"], LEVELS.index(r["level"])))
+    stats = {"records": len(records), "events": len(keep_ids), "dropped": dropped,
+             "by_level": {l: sum(1 for r in records if r["level"] == l) for l in LEVELS}}
+    return records, stats
+
+
+# ---------------------------------------------------------------- label masking
+
+def mask_labels(prefix_ids: list[int], full_ids: list[int]) -> list[int] | None:
+    """Loss on the assistant turn only.
+
+    Returns labels, or None when the example is unusable. Everything up to and including the
+    generation prompt is set to IGNORE_INDEX; without this the model is trained to reproduce
+    the persona template, which is identical across two thirds of the dataset and would
+    dominate the loss.
+    """
+    n = len(prefix_ids)
+    if n >= len(full_ids):
+        return None                                   # nothing to learn from
+    if full_ids[:n] != prefix_ids:
+        # tokenizer did not produce a clean prefix (rare template quirk); locate it instead
+        n = _common_prefix_len(prefix_ids, full_ids)
+        if n == 0 or n >= len(full_ids):
+            return None
+    labels = list(full_ids)
+    labels[:n] = [IGNORE_INDEX] * n
+    if all(l == IGNORE_INDEX for l in labels):
+        return None
+    return labels
+
+
+def _common_prefix_len(a: list[int], b: list[int]) -> int:
+    n = 0
+    for x, y in zip(a, b):
+        if x != y:
+            break
+        n += 1
+    return n
+
+
+def save_split(path: Path, train_ids, test_ids, meta: dict | None = None) -> None:
+    """Persist the split so the post-training evaluation scores the same held-out events."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {"train_ids": sorted(train_ids), "test_ids": sorted(test_ids),
+               "n_train": len(train_ids), "n_test": len(test_ids)}
+    if meta:
+        payload.update(meta)
+    path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+
+def load_split(path: Path) -> tuple[list[str], list[str]]:
+    d = json.loads(Path(path).read_text())
+    return d["train_ids"], d["test_ids"]
