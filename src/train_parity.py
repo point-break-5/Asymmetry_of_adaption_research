@@ -178,6 +178,54 @@ def _common_prefix_len(a: list[int], b: list[int]) -> int:
     return n
 
 
+def chat_ids(tokenizer, messages: list[dict], add_generation_prompt: bool) -> list[int]:
+    """Token ids for a chat template, normalised across transformers versions.
+
+    transformers >= 4.56 (and all of v5) default `apply_chat_template(tokenize=True)` to
+    `return_dict=True`, so it hands back a BatchEncoding rather than a list of ids. Calling
+    `list()` on that yields the dict KEYS -- ['input_ids', 'attention_mask'] -- which makes
+    every prefix and full sequence length 2, so mask_labels sees len(prefix) >= len(full) and
+    rejects the example. The symptom is a dataset of size zero with skipped['unmaskable']
+    equal to the corpus size.
+
+    Ask for a plain list where the kwarg exists, then unwrap defensively for every shape the
+    call can return: BatchEncoding, dict, tensor, or a batched list-of-lists.
+    """
+    base = dict(tokenize=True, add_generation_prompt=add_generation_prompt)
+    out = None
+    for extra in ({"return_dict": False, "enable_thinking": False},
+                  {"return_dict": False},
+                  {"enable_thinking": False},
+                  {}):
+        try:
+            out = tokenizer.apply_chat_template(messages, **base, **extra)
+            break
+        except TypeError:
+            continue
+    if out is None:
+        raise RuntimeError("apply_chat_template rejected every keyword combination")
+
+    if hasattr(out, "input_ids"):
+        out = out.input_ids
+    elif isinstance(out, dict):
+        out = out["input_ids"]
+    if hasattr(out, "tolist"):
+        out = out.tolist()
+    if len(out) and isinstance(out[0], (list, tuple)):
+        out = out[0]
+
+    ids = [int(t) for t in out]
+    if not ids:
+        raise RuntimeError("chat template produced no tokens")
+    return ids
+
+
+def encode_pair(tokenizer, messages: list[dict]) -> tuple[list[int], list[int]]:
+    """(prefix, full) ids: system+user+generation prompt, and the same plus the assistant turn."""
+    return (chat_ids(tokenizer, messages[:-1], add_generation_prompt=True),
+            chat_ids(tokenizer, messages, add_generation_prompt=False))
+
+
 def save_split(path: Path, train_ids, test_ids, meta: dict | None = None) -> None:
     """Persist the split so the post-training evaluation scores the same held-out events."""
     path.parent.mkdir(parents=True, exist_ok=True)
