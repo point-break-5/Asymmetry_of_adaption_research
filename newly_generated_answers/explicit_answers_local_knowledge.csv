@@ -1,0 +1,294 @@
+prompt_uid,No,ID,Domain,Topic,Topic_Details,Source_Law,Condition,Literacy_Level,System_Prompt,User_Prompt,Answer,Answer_Model,Answer_Words,Truncated
+DIG_01|Explicit|High,1,DIG_01,Digital Rights,Right to Erasure,Withdraw consent to data processing and ask for deletion.,Bangladesh PDPO 2025,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Right to Erasure
+Additional context/details: Withdraw consent to data processing and ask for deletion.
+Source/Reference: Bangladesh PDPO 2025
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Right to Erasure is addressed in Bangladesh PDPO 2025. Data subject may request deletion of their personal data.,local_knowledge,18,False
+DIG_01|Explicit|Mid,1,DIG_01,Digital Rights,Right to Erasure,Withdraw consent to data processing and ask for deletion.,Bangladesh PDPO 2025,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Right to Erasure
+Additional context/details: Withdraw consent to data processing and ask for deletion.
+Source/Reference: Bangladesh PDPO 2025
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Right to Erasure. Withdraw consent to data processing and ask for deletion. Bangladesh PDPO 2025.,local_knowledge,15,False
+DIG_01|Explicit|Low,1,DIG_01,Digital Rights,Right to Erasure,Withdraw consent to data processing and ask for deletion.,Bangladesh PDPO 2025,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Right to Erasure
+Additional context/details: Withdraw consent to data processing and ask for deletion.
+Source/Reference: Bangladesh PDPO 2025
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Right to Erasure is addressed in Bangladesh PDPO 2025. Delete your data upon withdrawal of consent.,local_knowledge,16,False
+DIG_04|Explicit|High,4,DIG_04,Digital Rights,Data License,Users grant worldwide license to use their content.,Facebook (Meta) ToS,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Data License
+Additional context/details: Users grant worldwide license to use their content.
+Source/Reference: Facebook (Meta) ToS
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Data License is addressed in Facebook (Meta) ToS. Users grant worldwide license to use their content.,local_knowledge,16,False
+DIG_04|Explicit|Mid,4,DIG_04,Digital Rights,Data License,Users grant worldwide license to use their content.,Facebook (Meta) ToS,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Data License
+Additional context/details: Users grant worldwide license to use their content.
+Source/Reference: Facebook (Meta) ToS
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Data License is addressed in Facebook (Meta) ToS. Users grant worldwide license to use their content.,local_knowledge,16,False
+DIG_04|Explicit|Low,4,DIG_04,Digital Rights,Data License,Users grant worldwide license to use their content.,Facebook (Meta) ToS,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Data License
+Additional context/details: Users grant worldwide license to use their content.
+Source/Reference: Facebook (Meta) ToS
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Data License is addressed in Facebook (Meta) ToS. Users grant worldwide license to use their content.,local_knowledge,16,False
+DIG_05|Explicit|High,5,DIG_05,Digital Rights,Biometric Tracking,Collection of faceprints and voiceprints from content.,TikTok Privacy Policy (US),Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Biometric Tracking
+Additional context/details: Collection of faceprints and voiceprints from content.
+Source/Reference: TikTok Privacy Policy (US)
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Biometric Tracking is addressed in TikTok Privacy Policy (US). Collection of faceprints and voiceprints from content.,local_knowledge,16,False
+DIG_05|Explicit|Mid,5,DIG_05,Digital Rights,Biometric Tracking,Collection of faceprints and voiceprints from content.,TikTok Privacy Policy (US),Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Biometric Tracking
+Additional context/details: Collection of faceprints and voiceprints from content.
+Source/Reference: TikTok Privacy Policy (US)
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Biometric Tracking is addressed in TikTok Privacy Policy (US). Faceprints and voiceprints are collected from content.,local_knowledge,16,False
+DIG_05|Explicit|Low,5,DIG_05,Digital Rights,Biometric Tracking,Collection of faceprints and voiceprints from content.,TikTok Privacy Policy (US),Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Biometric Tracking
+Additional context/details: Collection of faceprints and voiceprints from content.
+Source/Reference: TikTok Privacy Policy (US)
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Biometric Tracking is addressed in TikTok Privacy Policy (US). Collection of faceprints and voiceprints from content.,local_knowledge,16,False
+DIG_08|Explicit|High,8,DIG_08,Digital Rights,Metadata Logging,IP addresses and device types are stored to prevent spam.,Telegram Privacy Policy,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Metadata Logging
+Additional context/details: IP addresses and device types are stored to prevent spam.
+Source/Reference: Telegram Privacy Policy
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",**Metadata Logging** is addressed in Telegram Privacy Policy. IP addresses and device types are stored to prevent spam.,local_knowledge,18,False
+DIG_08|Explicit|Mid,8,DIG_08,Digital Rights,Metadata Logging,IP addresses and device types are stored to prevent spam.,Telegram Privacy Policy,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Metadata Logging
+Additional context/details: IP addresses and device types are stored to prevent spam.
+Source/Reference: Telegram Privacy Policy
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Metadata Logging is addressed in Telegram Privacy Policy. IP addresses and device types are stored to prevent spam.,local_knowledge,18,False
+DIG_08|Explicit|Low,8,DIG_08,Digital Rights,Metadata Logging,IP addresses and device types are stored to prevent spam.,Telegram Privacy Policy,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Metadata Logging
+Additional context/details: IP addresses and device types are stored to prevent spam.
+Source/Reference: Telegram Privacy Policy
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Logging IP addresses and device types to stop spam.,local_knowledge,9,False
+DIG_10|Explicit|High,10,DIG_10,Digital Rights,Transactional Data Sharing,Sharing info with subsidiaries under similar protection.,Amazon Privacy Notice,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Transactional Data Sharing
+Additional context/details: Sharing info with subsidiaries under similar protection.
+Source/Reference: Amazon Privacy Notice
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Transactional Data Sharing is addressed in Amazon Privacy Notice. Subsidiaries may receive limited data for service provision.,local_knowledge,17,False
+DIG_10|Explicit|Mid,10,DIG_10,Digital Rights,Transactional Data Sharing,Sharing info with subsidiaries under similar protection.,Amazon Privacy Notice,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Transactional Data Sharing
+Additional context/details: Sharing info with subsidiaries under similar protection.
+Source/Reference: Amazon Privacy Notice
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Transactional Data Sharing is addressed in Amazon Privacy Notice. Sharing info with subsidiaries under similar protection.,local_knowledge,16,False
+DIG_10|Explicit|Low,10,DIG_10,Digital Rights,Transactional Data Sharing,Sharing info with subsidiaries under similar protection.,Amazon Privacy Notice,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Transactional Data Sharing
+Additional context/details: Sharing info with subsidiaries under similar protection.
+Source/Reference: Amazon Privacy Notice
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Sharing customer data with Amazon-owned companies. (Low Literacy),local_knowledge,8,False
+DIG_13|Explicit|High,13,DIG_13,Digital Rights,Fraud Monitoring,Automated website crawling to combat money laundering.,PayPal Acceptable Use Policy,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Fraud Monitoring
+Additional context/details: Automated website crawling to combat money laundering.
+Source/Reference: PayPal Acceptable Use Policy
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Fraud Monitoring is addressed in PayPal Acceptable Use Policy. Automated website crawling to combat money laundering.,local_knowledge,16,False
+DIG_13|Explicit|Mid,13,DIG_13,Digital Rights,Fraud Monitoring,Automated website crawling to combat money laundering.,PayPal Acceptable Use Policy,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Fraud Monitoring
+Additional context/details: Automated website crawling to combat money laundering.
+Source/Reference: PayPal Acceptable Use Policy
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Fraud Monitoring is addressed in PayPal Acceptable Use Policy. Automated website crawling to combat money laundering.,local_knowledge,16,False
+DIG_13|Explicit|Low,13,DIG_13,Digital Rights,Fraud Monitoring,Automated website crawling to combat money laundering.,PayPal Acceptable Use Policy,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Fraud Monitoring
+Additional context/details: Automated website crawling to combat money laundering.
+Source/Reference: PayPal Acceptable Use Policy
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Fraud Monitoring is addressed in this topic. Automated website crawling to combat money laundering. PayPal Acceptable Use Policy.,local_knowledge,18,False
+DIG_14|Explicit|High,14,DIG_14,Digital Rights,AI Training Opt-Out,Using user content to train AI unless opted out.,OpenAI Terms of Use,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: AI Training Opt-Out
+Additional context/details: Using user content to train AI unless opted out.
+Source/Reference: OpenAI Terms of Use
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",AI Training Opt-Out is addressed in OpenAI Terms of Use. User content may be used for AI training unless opted out.,local_knowledge,21,False
+DIG_14|Explicit|Mid,14,DIG_14,Digital Rights,AI Training Opt-Out,Using user content to train AI unless opted out.,OpenAI Terms of Use,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: AI Training Opt-Out
+Additional context/details: Using user content to train AI unless opted out.
+Source/Reference: OpenAI Terms of Use
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",AI Training Opt-Out is addressed in OpenAI Terms of Use. User content is used for AI training unless opted out.,local_knowledge,20,False
+DIG_14|Explicit|Low,14,DIG_14,Digital Rights,AI Training Opt-Out,Using user content to train AI unless opted out.,OpenAI Terms of Use,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: AI Training Opt-Out
+Additional context/details: Using user content to train AI unless opted out.
+Source/Reference: OpenAI Terms of Use
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",AI Training Opt-Out is addressed in OpenAI Terms of Use. User content is used to train AI unless opted out.,local_knowledge,20,False
+DIG_16|Explicit|High,16,DIG_16,Digital Rights,Dark Patterns,Using deceptive UI to trick users into consent.,GDPR Recital ,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Dark Patterns
+Additional context/details: Using deceptive UI to trick users into consent.
+Source/Reference: GDPR Recital 
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Dark Patterns is addressed in GDPR Recital. High-literacy explanation: Exploiting cognitive biases through deceptive UI design to manipulate consent.,local_knowledge,19,False
+DIG_16|Explicit|Mid,16,DIG_16,Digital Rights,Dark Patterns,Using deceptive UI to trick users into consent.,GDPR Recital ,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Dark Patterns
+Additional context/details: Using deceptive UI to trick users into consent.
+Source/Reference: GDPR Recital 
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Dark Patterns is addressed in GDPR Recital. Using deceptive UI to trick users into consent.,local_knowledge,15,False
+DIG_16|Explicit|Low,16,DIG_16,Digital Rights,Dark Patterns,Using deceptive UI to trick users into consent.,GDPR Recital ,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Dark Patterns
+Additional context/details: Using deceptive UI to trick users into consent.
+Source/Reference: GDPR Recital 
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Dark Patterns is addressed in GDPR Recital. Using deceptive UI to trick users into consent.,local_knowledge,15,False
+DIG_17|Explicit|High,17,DIG_17,Digital Rights,Data Portability,Moving data to another app in machine-readable format.,GDPR Article,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Data Portability
+Additional context/details: Moving data to another app in machine-readable format.
+Source/Reference: GDPR Article
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Data Portability is addressed in GDPR Article. High literacy: the right to data portability; transfer to another service in machine-readable format.,local_knowledge,21,False
+DIG_17|Explicit|Mid,17,DIG_17,Digital Rights,Data Portability,Moving data to another app in machine-readable format.,GDPR Article,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Data Portability
+Additional context/details: Moving data to another app in machine-readable format.
+Source/Reference: GDPR Article
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Data Portability is addressed in GDPR Article. You can request a copy of your personal data in a machine-readable format.,local_knowledge,20,False
+DIG_17|Explicit|Low,17,DIG_17,Digital Rights,Data Portability,Moving data to another app in machine-readable format.,GDPR Article,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Data Portability
+Additional context/details: Moving data to another app in machine-readable format.
+Source/Reference: GDPR Article
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)","**Data Portability** — GDPR Article. Right to receive your personal data in a structured, commonly used format.",local_knowledge,17,False
+DIG_18|Explicit|High,18,DIG_18,Digital Rights,Breach Notification,Duty to notify users within 72 hours of a hack.,GDPR Article,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Breach Notification
+Additional context/details: Duty to notify users within 72 hours of a hack.
+Source/Reference: GDPR Article
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)","**GDPR Article 33**. Data controllers must notify affected individuals without undue delay, and in any event within **72 hours** of becoming aware of a breach.",local_knowledge,25,False
+DIG_18|Explicit|Mid,18,DIG_18,Digital Rights,Breach Notification,Duty to notify users within 72 hours of a hack.,GDPR Article,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Breach Notification
+Additional context/details: Duty to notify users within 72 hours of a hack.
+Source/Reference: GDPR Article
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Breach Notification. GDPR Article. Must inform affected users within 72 hours of a security breach.,local_knowledge,15,False
+DIG_18|Explicit|Low,18,DIG_18,Digital Rights,Breach Notification,Duty to notify users within 72 hours of a hack.,GDPR Article,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Breach Notification
+Additional context/details: Duty to notify users within 72 hours of a hack.
+Source/Reference: GDPR Article
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Breach Notification. Companies must inform affected users within 72 hours of a data breach. GDPR Article.,local_knowledge,16,False
+DIG_19|Explicit|High,19,DIG_19,Digital Rights,Sensitive Data Violations,7 years imprisonment for disclosing sensitive data.,Bangladesh PDPO 2025,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Sensitive Data Violations
+Additional context/details: 7 years imprisonment for disclosing sensitive data.
+Source/Reference: Bangladesh PDPO 2025
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Sensitive Data Violations is addressed in Bangladesh PDPO 2025. 7 years imprisonment for disclosing sensitive data.,local_knowledge,16,False
+DIG_19|Explicit|Mid,19,DIG_19,Digital Rights,Sensitive Data Violations,7 years imprisonment for disclosing sensitive data.,Bangladesh PDPO 2025,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Sensitive Data Violations
+Additional context/details: 7 years imprisonment for disclosing sensitive data.
+Source/Reference: Bangladesh PDPO 2025
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Sharing confidential business data can lead to 7 years in jail under Bangladesh PDPO 2025.,local_knowledge,15,False
+DIG_19|Explicit|Low,19,DIG_19,Digital Rights,Sensitive Data Violations,7 years imprisonment for disclosing sensitive data.,Bangladesh PDPO 2025,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Sensitive Data Violations
+Additional context/details: 7 years imprisonment for disclosing sensitive data.
+Source/Reference: Bangladesh PDPO 2025
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Sharing sensitive data is a crime in Bangladesh PDPO 2025. 7 years imprisonment.,local_knowledge,13,False
+DIG_20|Explicit|High,20,DIG_20,Digital Rights,Profiling Prohibition,Right not to be subject to decisions based on profiling.,GDPR Article,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Profiling Prohibition
+Additional context/details: Right not to be subject to decisions based on profiling.
+Source/Reference: GDPR Article
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)","Profiling Prohibition is addressed in GDPR Article. Right not to be subject to decisions based solely on automated processing, including profiling, which produces legal effects or similarly significantly affects them.",local_knowledge,30,False
+DIG_20|Explicit|Mid,20,DIG_20,Digital Rights,Profiling Prohibition,Right not to be subject to decisions based on profiling.,GDPR Article,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Profiling Prohibition
+Additional context/details: Right not to be subject to decisions based on profiling.
+Source/Reference: GDPR Article
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Profiling is addressed in GDPR. Right not to be subject to decisions based on profiling.,local_knowledge,15,False
+DIG_20|Explicit|Low,20,DIG_20,Digital Rights,Profiling Prohibition,Right not to be subject to decisions based on profiling.,GDPR Article,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Profiling Prohibition
+Additional context/details: Right not to be subject to decisions based on profiling.
+Source/Reference: GDPR Article
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Profiling Prohibition is addressed in GDPR Article. Right not to be subject to decisions based on profiling.,local_knowledge,17,False
+LAB_01|Explicit|High,21,LAB_01,Labor Rights,Maternity Benefit,Must work 6 months and have fewer than 2 children.,Bangladesh Labour Act 2006,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Maternity Benefit
+Additional context/details: Must work 6 months and have fewer than 2 children.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Maternity Benefit is addressed in Bangladesh Labour Act 2006. Must work 6 months and have fewer than 2 children.,local_knowledge,19,False
+LAB_01|Explicit|Mid,21,LAB_01,Labor Rights,Maternity Benefit,Must work 6 months and have fewer than 2 children.,Bangladesh Labour Act 2006,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Maternity Benefit
+Additional context/details: Must work 6 months and have fewer than 2 children.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Maternity Benefit requires 6 months work and fewer than 2 children. Bangladesh Labour Act 2006.,local_knowledge,15,False
+LAB_01|Explicit|Low,21,LAB_01,Labor Rights,Maternity Benefit,Must work 6 months and have fewer than 2 children.,Bangladesh Labour Act 2006,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Maternity Benefit
+Additional context/details: Must work 6 months and have fewer than 2 children.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Maternity Benefit is addressed in Bangladesh Labour Act 2006. Must work 6 months and have fewer than 2 children.,local_knowledge,19,False
+LAB_02|Explicit|High,22,LAB_02,Labor Rights,Daily Working Hours,"8 hours limit, max 10 hours including overtime.",Bangladesh Labour Act 2006,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Daily Working Hours
+Additional context/details: 8 hours limit, max 10 hours including overtime.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)","Daily Working Hours is addressed in Bangladesh Labour Act 2006. 8 hours limit, max 10 hours including overtime.",local_knowledge,18,False
+LAB_02|Explicit|Mid,22,LAB_02,Labor Rights,Daily Working Hours,"8 hours limit, max 10 hours including overtime.",Bangladesh Labour Act 2006,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Daily Working Hours
+Additional context/details: 8 hours limit, max 10 hours including overtime.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)","Daily Working Hours is addressed in Bangladesh Labour Act 2006. Maximum 8 hours of regular work per day, extendable to 10 hours with overtime pay.",local_knowledge,25,False
+LAB_02|Explicit|Low,22,LAB_02,Labor Rights,Daily Working Hours,"8 hours limit, max 10 hours including overtime.",Bangladesh Labour Act 2006,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Daily Working Hours
+Additional context/details: 8 hours limit, max 10 hours including overtime.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)","Daily Working Hours is addressed in Bangladesh Labour Act 2006. 8 hours limit, max 10 hours including overtime.",local_knowledge,18,False
+LAB_03|Explicit|High,23,LAB_03,Labor Rights,Termination Notice,120 days for monthly rated workers; 60 days others.,Bangladesh Labour Act 2006,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Termination Notice
+Additional context/details: 120 days for monthly rated workers; 60 days others.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Termination Notice is addressed in Bangladesh Labour Act 2006. Monthly-rated workers must receive 120 days' notice; other employees receive 60 days' notice.,local_knowledge,22,False
+LAB_03|Explicit|Mid,23,LAB_03,Labor Rights,Termination Notice,120 days for monthly rated workers; 60 days others.,Bangladesh Labour Act 2006,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Termination Notice
+Additional context/details: 120 days for monthly rated workers; 60 days others.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",**Termination Notice** is addressed in Bangladesh Labour Act 2006. Monthly-rated workers must receive **120 days' notice**; all others **60 days**.,local_knowledge,20,False
+LAB_03|Explicit|Low,23,LAB_03,Labor Rights,Termination Notice,120 days for monthly rated workers; 60 days others.,Bangladesh Labour Act 2006,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Termination Notice
+Additional context/details: 120 days for monthly rated workers; 60 days others.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Termination Notice is addressed in Bangladesh Labour Act 2006. Monthly-rated workers receive 120 days' pay; others receive 60 days.,local_knowledge,19,False
+LAB_04|Explicit|High,24,LAB_04,Labor Rights,Injury Compensation,Employer liability for accidents during employment.,Bangladesh Labour Act 2006,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Injury Compensation
+Additional context/details: Employer liability for accidents during employment.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Injury Compensation is addressed in Bangladesh Labour Act 2006. Employer liability for accidents during employment.,local_knowledge,15,False
+LAB_04|Explicit|Mid,24,LAB_04,Labor Rights,Injury Compensation,Employer liability for accidents during employment.,Bangladesh Labour Act 2006,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Injury Compensation
+Additional context/details: Employer liability for accidents during employment.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Injury Compensation is addressed in Bangladesh Labour Act 2006. Employer liability for accidents during employment.,local_knowledge,15,False
+LAB_04|Explicit|Low,24,LAB_04,Labor Rights,Injury Compensation,Employer liability for accidents during employment.,Bangladesh Labour Act 2006,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Injury Compensation
+Additional context/details: Employer liability for accidents during employment.
+Source/Reference: Bangladesh Labour Act 2006
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Injury Compensation is addressed in Bangladesh Labour Act 2006. Employer liability for accidents during employment.,local_knowledge,15,False
+LAB_07|Explicit|High,27,LAB_07,Labor Rights,Employer's Duty of Care,Workplace machinery and equipment must be safe.,ILO Convention 155,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Employer's Duty of Care
+Additional context/details: Workplace machinery and equipment must be safe.
+Source/Reference: ILO Convention 155
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Employer's Duty of Care is addressed in ILO Convention 155. High literacy level.,local_knowledge,13,False
+LAB_07|Explicit|Mid,27,LAB_07,Labor Rights,Employer's Duty of Care,Workplace machinery and equipment must be safe.,ILO Convention 155,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Employer's Duty of Care
+Additional context/details: Workplace machinery and equipment must be safe.
+Source/Reference: ILO Convention 155
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Hazardous machines must have safety guards. ILO Convention 155.,local_knowledge,9,False
+LAB_07|Explicit|Low,27,LAB_07,Labor Rights,Employer's Duty of Care,Workplace machinery and equipment must be safe.,ILO Convention 155,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Employer's Duty of Care
+Additional context/details: Workplace machinery and equipment must be safe.
+Source/Reference: ILO Convention 155
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Machine guards prevent serious injury. ILO Convention 155.,local_knowledge,8,False
+LAB_08|Explicit|High,28,LAB_08,Labor Rights,OSH Costs,Workers should not pay for safety measures.,ILO Convention 155,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: OSH Costs
+Additional context/details: Workers should not pay for safety measures.
+Source/Reference: ILO Convention 155
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",OSH Costs. High literacy. Workers must not pay for safety measures. ILO Convention 155.,local_knowledge,14,False
+LAB_08|Explicit|Mid,28,LAB_08,Labor Rights,OSH Costs,Workers should not pay for safety measures.,ILO Convention 155,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: OSH Costs
+Additional context/details: Workers should not pay for safety measures.
+Source/Reference: ILO Convention 155
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",OSH Costs is addressed in ILO Convention 155. Employers bear the cost of safety measures. Workers should not pay for safety measures.,local_knowledge,22,False
+LAB_08|Explicit|Low,28,LAB_08,Labor Rights,OSH Costs,Workers should not pay for safety measures.,ILO Convention 155,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: OSH Costs
+Additional context/details: Workers should not pay for safety measures.
+Source/Reference: ILO Convention 155
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",OSH Costs. Employers bear the full cost of safety measures. ILO Convention 155.,local_knowledge,13,False
+LAB_09|Explicit|High,29,LAB_09,Labor Rights,Gig Worker Status,"Classified as partners/contractors, not employees.",Uber Service Agreement,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Worker Status
+Additional context/details: Classified as partners/contractors, not employees.
+Source/Reference: Uber Service Agreement
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)","Gig Worker Status is addressed in Gig Worker Status. Classified as partners/contractors, not employees.",local_knowledge,14,False
+LAB_09|Explicit|Mid,29,LAB_09,Labor Rights,Gig Worker Status,"Classified as partners/contractors, not employees.",Uber Service Agreement,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Worker Status
+Additional context/details: Classified as partners/contractors, not employees.
+Source/Reference: Uber Service Agreement
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)","Gig Worker Status is addressed in Uber Service Agreement. Classified as partners/contractors, not employees.",local_knowledge,14,False
+LAB_09|Explicit|Low,29,LAB_09,Labor Rights,Gig Worker Status,"Classified as partners/contractors, not employees.",Uber Service Agreement,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Worker Status
+Additional context/details: Classified as partners/contractors, not employees.
+Source/Reference: Uber Service Agreement
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)","Gig Worker Status is addressed in Uber Service Agreement. Classified as partners/contractors, not employees.",local_knowledge,14,False
+LAB_10|Explicit|High,30,LAB_10,Labor Rights,Gig Indemnity,Worker pays for company costs if they get sued.,Foodpanda Service Agreement,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Indemnity
+Additional context/details: Worker pays for company costs if they get sued.
+Source/Reference: Foodpanda Service Agreement
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Gig Indemnity is addressed in Foodpanda Service Agreement. Worker pays for company costs if they get sued.,local_knowledge,17,False
+LAB_10|Explicit|Mid,30,LAB_10,Labor Rights,Gig Indemnity,Worker pays for company costs if they get sued.,Foodpanda Service Agreement,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Indemnity
+Additional context/details: Worker pays for company costs if they get sued.
+Source/Reference: Foodpanda Service Agreement
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Gig Indemnity is addressed in Foodpanda Service Agreement. Worker pays for company costs if they get sued.,local_knowledge,17,False
+LAB_10|Explicit|Low,30,LAB_10,Labor Rights,Gig Indemnity,Worker pays for company costs if they get sued.,Foodpanda Service Agreement,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Indemnity
+Additional context/details: Worker pays for company costs if they get sued.
+Source/Reference: Foodpanda Service Agreement
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Gig Indemnity is addressed in Foodpanda Service Agreement. Worker pays for company costs if they get sued.,local_knowledge,17,False
+LAB_11|Explicit|High,31,LAB_11,Labor Rights,Gig Equipment Costs,"Worker pays for fuel, insurance, and vehicle maintenance.",Foodpanda Contract,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Equipment Costs
+Additional context/details: Worker pays for fuel, insurance, and vehicle maintenance.
+Source/Reference: Foodpanda Contract
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)","Gig Equipment Costs is addressed in Foodpanda Contract. Worker pays for fuel, insurance, and vehicle maintenance.",local_knowledge,16,False
+LAB_11|Explicit|Mid,31,LAB_11,Labor Rights,Gig Equipment Costs,"Worker pays for fuel, insurance, and vehicle maintenance.",Foodpanda Contract,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Equipment Costs
+Additional context/details: Worker pays for fuel, insurance, and vehicle maintenance.
+Source/Reference: Foodpanda Contract
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)","Gig Equipment Costs. Worker pays for fuel, insurance, and vehicle maintenance. — Foodpanda Contract.",local_knowledge,14,False
+LAB_11|Explicit|Low,31,LAB_11,Labor Rights,Gig Equipment Costs,"Worker pays for fuel, insurance, and vehicle maintenance.",Foodpanda Contract,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Gig Equipment Costs
+Additional context/details: Worker pays for fuel, insurance, and vehicle maintenance.
+Source/Reference: Foodpanda Contract
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)","Fuel, insurance, and vehicle maintenance are the worker's responsibility. (Low Literacy)",local_knowledge,11,False
+LAB_13|Explicit|High,33,LAB_13,Labor Rights,Fraudulent Demand Letters,7 years jail for illegal visa or work permit trade.,Overseas Employment Act 2013,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Fraudulent Demand Letters
+Additional context/details: 7 years jail for illegal visa or work permit trade.
+Source/Reference: Overseas Employment Act 2013
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Fraudulent Demand Letters is addressed in Overseas Employment Act 2013. 7 years jail for illegal visa or work permit trade.,local_knowledge,20,False
+LAB_13|Explicit|Mid,33,LAB_13,Labor Rights,Fraudulent Demand Letters,7 years jail for illegal visa or work permit trade.,Overseas Employment Act 2013,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Fraudulent Demand Letters
+Additional context/details: 7 years jail for illegal visa or work permit trade.
+Source/Reference: Overseas Employment Act 2013
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",**Fraudulent Demand Letters** — 7 years jail for illegal visa or work permit trade. *Overseas Employment Act 2013*.,local_knowledge,18,False
+LAB_13|Explicit|Low,33,LAB_13,Labor Rights,Fraudulent Demand Letters,7 years jail for illegal visa or work permit trade.,Overseas Employment Act 2013,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Fraudulent Demand Letters
+Additional context/details: 7 years jail for illegal visa or work permit trade.
+Source/Reference: Overseas Employment Act 2013
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Getting a visa through fraud carries 7 years jail. Overseas Employment Act 2013.,local_knowledge,13,False
+EFA_08|Explicit|High,128,EFA_08,First Aid,Heat Stroke,Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths.,CDC/NIOSH,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Heat Stroke
+Additional context/details: Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths.
+Source/Reference: CDC/NIOSH
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)",Heat Stroke. Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths. (CDC/NIOSH),local_knowledge,16,False
+EFA_08|Explicit|Mid,128,EFA_08,First Aid,Heat Stroke,Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths.,CDC/NIOSH,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Heat Stroke
+Additional context/details: Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths.
+Source/Reference: CDC/NIOSH
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Heat Stroke is addressed in CDC/NIOSH. Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths.,local_knowledge,19,False
+EFA_08|Explicit|Low,128,EFA_08,First Aid,Heat Stroke,Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths.,CDC/NIOSH,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Heat Stroke
+Additional context/details: Lower body temperature below 102°F (39°C) using cool water immersion or wet cloths.
+Source/Reference: CDC/NIOSH
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)",Heat Stroke is addressed in CDC/NIOSH. Cool the body below 102°F (39°C) with immersion or wet cloths.,local_knowledge,17,False
+EFA_09|Explicit|High,129,EFA_09,First Aid,Allergic Reaction,Administer into the mid-outer thigh; hold firmly for 3 seconds ,EpiPen Prescribing Info,Explicit,High Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Allergic Reaction
+Additional context/details: Administer into the mid-outer thigh; hold firmly for 3 seconds 
+Source/Reference: EpiPen Prescribing Info
+Persona: I have high literacy on this topic. Explain the topic according to my level. (High Literacy)","**Allergic Reaction**  
+**Action:** Administer into the mid-outer thigh; hold firmly for 3 seconds  
+**Source:** EpiPen Prescribing Info  
+**Note:** The 3-second hold ensures the full dose (0.3 mg/kg) is delivered into the muscle.",local_knowledge,32,False
+EFA_09|Explicit|Mid,129,EFA_09,First Aid,Allergic Reaction,Administer into the mid-outer thigh; hold firmly for 3 seconds ,EpiPen Prescribing Info,Explicit,Mid Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Allergic Reaction
+Additional context/details: Administer into the mid-outer thigh; hold firmly for 3 seconds 
+Source/Reference: EpiPen Prescribing Info
+Persona: I have mid literacy on this topic. Explain the topic according to my level. (Mid Literacy)",Allergic Reaction is addressed in EpiPen Prescribing Info. Administer into the mid-outer thigh; hold firmly for 3 seconds.,local_knowledge,18,False
+EFA_09|Explicit|Low,129,EFA_09,First Aid,Allergic Reaction,Administer into the mid-outer thigh; hold firmly for 3 seconds ,EpiPen Prescribing Info,Explicit,Low Literacy,You are a helpful assistant that adapts to the user's literacy level.,"The topic: Allergic Reaction
+Additional context/details: Administer into the mid-outer thigh; hold firmly for 3 seconds 
+Source/Reference: EpiPen Prescribing Info
+Persona: I have low literacy on this topic. Explain the topic according to my level. (Low Literacy)","**Inject into mid-outer thigh; hold for 3 seconds.**  
+*EpiPen Prescribing Info*  
+**Never use for children under 12 years old.**",local_knowledge,19,False

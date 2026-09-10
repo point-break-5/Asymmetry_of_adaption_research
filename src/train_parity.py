@@ -84,11 +84,45 @@ def entity_coverage(reference: str, candidate: str) -> float:
     return 1.0 if not ref else len(ref & _entities(candidate)) / len(ref)
 
 
+def fk_grade(text: str) -> float:
+    """Flesch-Kincaid grade (Eq. 1). Local copy so this module stays import-light."""
+    words = re.findall(r"[A-Za-z']+", text or "")
+    sents = [x for x in re.split(r"[.!?]+", text or "") if x.strip()]
+    if not words or not sents:
+        return 0.0
+    def syl(w):
+        w = re.sub(r"[^a-z]", "", w.lower())
+        if not w:
+            return 0
+        n = len(re.findall(r"[aeiouy]+", w))
+        if w.endswith("e") and n > 1 and not w.endswith(("le", "ee", "ye")):
+            n -= 1
+        return max(n, 1)
+    return 0.39 * (len(words) / len(sents)) + 11.8 * (sum(syl(w) for w in words) / len(words)) - 15.59
+
+
+def satisfies_objective(ev: dict[str, dict], target_column: str, reference_column: str,
+                        min_coverage: float) -> bool:
+    """The training objective, evaluated per event: entity parity AND a descending register.
+
+    Filtering on coverage alone admits events whose rewrite kept the entities but flattened
+    the register -- exactly the behaviour the fine-tune must not learn. Requiring both means
+    every surviving example demonstrates the full target behaviour rather than half of it.
+    """
+    ref = ev[ANCHOR_LEVEL].get(reference_column) or ""
+    fk = [fk_grade(ev[l].get(target_column) or "") for l in LEVELS]
+    if not (fk[0] > fk[1] > fk[2]):
+        return False
+    return all(entity_coverage(ref, ev[l].get(target_column) or "") >= min_coverage
+               for l in LEVELS[1:])
+
+
 def build_records(events: dict[str, dict[str, dict]], keep_ids: set[str],
                   target_column: str = "parity_answer",
                   reference_column: str = "cleaned_answer",
                   min_coverage: float = 0.85,
                   balance_anchor: bool = True,
+                  require_joint: bool = True,
                   seed: int = 42) -> tuple[list[dict], dict]:
     """One record per (event, level). Returns (records, stats).
 
@@ -96,12 +130,16 @@ def build_records(events: dict[str, dict[str, dict]], keep_ids: set[str],
     distribution is bimodal (median 1.00, p10 0.17), and the bad tail actively teaches the
     entity-dropping behaviour this fine-tune exists to remove. Anchor rows are always kept.
     """
-    records, dropped = [], {"missing": 0, "low_coverage": 0, "empty": 0}
+    records, dropped = [], {"missing": 0, "low_coverage": 0, "empty": 0, "objective_unmet": 0}
 
     for eid in sorted(keep_ids):
         ev = events.get(eid)
         if not ev:
             dropped["missing"] += 1
+            continue
+        if require_joint and not satisfies_objective(ev, target_column, reference_column,
+                                                     min_coverage):
+            dropped["objective_unmet"] += 1
             continue
         high_ref = ev[ANCHOR_LEVEL].get(reference_column) or ""
 
