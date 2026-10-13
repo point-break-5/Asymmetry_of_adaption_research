@@ -7,7 +7,11 @@ __pycache__/
 
 # Secrets
 .env
+.env.*
+!.env.example
+!.env.template
 *.key
+*.pem
 
 # Fine-tuned model weights and checkpoints
 models/
@@ -23,3 +27,6 @@ models/
 
 # Snapshot archive of this repo's own contents (duplicates tracked files)
 research.zip
+
+# Reproducible evaluator caches; keep the metric CSV results in Git
+evaluation_results/*cache*.json
