@@ -1,0 +1,2479 @@
+{
+  "DIG_01": {
+    "ID": "DIG_01",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-print-1574.html"
+    ],
+    "source_review": "Previously checked against official consolidated 2025 ordinance; historical scope and 2026 repeal explicit.",
+    "notes": "Previously authored and evaluated seed, retained rather than misrepresented as new.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_seed_DIG_01_03.json"
+  },
+  "DIG_02": {
+    "ID": "DIG_02",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-print-1574.html"
+    ],
+    "source_review": "Previously checked against official consolidated 2025 ordinance; historical scope and 2026 repeal explicit.",
+    "notes": "Previously authored and evaluated seed, retained rather than misrepresented as new.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_seed_DIG_01_03.json"
+  },
+  "DIG_03": {
+    "ID": "DIG_03",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-print-1574.html"
+    ],
+    "source_review": "Previously checked against official consolidated 2025 ordinance; historical scope and 2026 repeal explicit.",
+    "notes": "Previously authored and evaluated seed, retained rather than misrepresented as new.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_seed_DIG_01_03.json"
+  },
+  "DIG_04": {
+    "ID": "DIG_04",
+    "sources": [
+      "https://www.facebook.com/legal/terms",
+      "https://privacytracker.co.za/tos/facebook-tos/version/facebook-tos-b1702a/pdf"
+    ],
+    "source_review": "Official Facebook terms URL was login/rate-limit blocked. Licence wording corroborated in a reproduced terms text; version-specific deletion exceptions require further primary-page review. Not claimed as comprehensive current legal verification.",
+    "notes": "Removed original unsupported perpetual/irrevocable assertion, incorrect transfer direction, and unlimited personal-data/AI-use inference. Preserved ownership, licence features and valid practical distinctions.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_04_10.json"
+  },
+  "DIG_05": {
+    "ID": "DIG_05",
+    "sources": [
+      "https://www.tiktok.com/legal/page/us/privacy-policy/en?appLaunch=app"
+    ],
+    "source_review": "Official U.S. policy clause retrieved through indexed primary-source text; direct open failed. Answer is explicitly scoped to the referenced clause, not a claim that the same edition is current in every jurisdiction.",
+    "notes": "Removed invented algorithm, cryptographic-signature, exact-purpose and cross-platform identification claims. Preserved biometric concepts and qualified may/where-required-by-law wording.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_04_10.json"
+  },
+  "DIG_06": {
+    "ID": "DIG_06",
+    "sources": [
+      "https://www.facebook.com/privacy/policies/uso/",
+      "https://about.fb.com/news/2018/04/data-off-facebook/",
+      "https://about.fb.com/news/2026/06/better-personalization-and-changes-to-controls-for-your-activity-from-other-businesses/amp/"
+    ],
+    "source_review": "Primary Meta notices and explanations checked for partner tools, off-platform activity and control changes. Avoided implying a single timeless settings interface or universal tracking ability.",
+    "notes": "Removed surveillance rhetoric, universal fingerprinting/profile claims and unsupported statements that all apps/devices are seamlessly mapped. Preserved supported tool names and privacy distinctions.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_04_10.json"
+  },
+  "DIG_07": {
+    "ID": "DIG_07",
+    "sources": [
+      "https://about.fb.com/news/2020/10/privacy-matters-whatsapp-business-conversations/",
+      "https://www.whatsapp.com/legal/business-data-processing-terms"
+    ],
+    "source_review": "Official 2020 WhatsApp hosting explanation and 2025 processor terms checked. Historical hosting claims explicitly dated rather than conflated with all current Cloud API configurations.",
+    "notes": "Corrected the original implication that business access itself disproves E2EE, and removed blanket automatic Meta advertising use and key-possession claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_04_10.json"
+  },
+  "DIG_08": {
+    "ID": "DIG_08",
+    "sources": [
+      "https://www.telegram.org/privacy/eu"
+    ],
+    "source_review": "Primary policy Sections 3.3, 5.2 and 5.3 checked for chat types, security-metadata categories and maximum retention. Regional policy redirect recorded.",
+    "notes": "Removed fabricated anonymization guarantees, botnet examples presented as Telegram algorithms, and the false claim that every Telegram chat is E2EE.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_04_10.json"
+  },
+  "DIG_09": {
+    "ID": "DIG_09",
+    "sources": [
+      "https://www.whatsapp.com/legal/business-data-processing-terms"
+    ],
+    "source_review": "Primary WhatsApp Business Data Processing Terms, last updated 22 August 2025, checked for role scope, written sub-processing contracts, liability, transfers, notices and termination/deletion exceptions.",
+    "notes": "Removed invented Redis/ephemeral-storage architecture and unconditional purge-on-delivery guarantees. Retained explicit legal role and confidentiality/security distinctions.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_04_10.json"
+  },
+  "DIG_10": {
+    "ID": "DIG_10",
+    "sources": [
+      "https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ"
+    ],
+    "source_review": "Official Amazon notice URL returned HTTP 503 during this pass. Core controlled-subsidiary/protection condition is retained from supplied topic/reference; current edition and particular purposes require further primary-page verification.",
+    "notes": "Removed false legal ownership claim and invented mandatory group data architecture/contracts. Source-access limitation is explicit; this is not marked comprehensively verified.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_04_10.json"
+  },
+  "DIG_11": {
+    "ID": "DIG_11",
+    "sources": [
+      "https://support.google.com/googleplay/android-developer/answer/9799150",
+      "https://support.google.com/googleplay/android-developer/answer/16909972"
+    ],
+    "source_review": "Official Google Play background-location and sensitive-permission guidance checked. Amazon's general notice was unavailable; no specific Amazon app behavior asserted without its notice.",
+    "notes": "Removed fabricated universal five-minute sampling, foreground-only upload and all-app Wi-Fi/GPS architecture claims. Preserved purpose, precision and privacy distinctions.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_11_14.json"
+  },
+  "DIG_12": {
+    "ID": "DIG_12",
+    "sources": [
+      "https://www.bb.org.bd/mediaroom/circulars/psd/jul302018psdl04e.pdf",
+      "https://www.bb.org.bd/aboutus/regulationguideline/psd/mfs_regulations_2022.pdf"
+    ],
+    "source_review": "Official 2018 Section 18.1–18.2 checked; minimum six years from origination verified. Later 2022 instrument identified; no claim that 2018 alone states all current requirements.",
+    "notes": "Replaced invented 5–10 years after termination with the actual six-year origination rule. Removed universal raw-biometric and deployment-specific security guarantees.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_11_14.json"
+  },
+  "DIG_13": {
+    "ID": "DIG_13",
+    "sources": [
+      "https://www.paypal.com/de/legalhub/paypal/acceptableuse-full?locale.x=en_US",
+      "https://securepayments.paypal.com/us/legalhub/paypal/useragreement-full?country.x=US&locale.x=en_US"
+    ],
+    "source_review": "Official acceptable-use policy and user agreement opened. A requirement for the original dark-web/NLP/graph/Tornado-Cash architecture was not established; such methods are explicitly illustrative, not attributed as mandates.",
+    "notes": "Corrected unsupported implementation and universal regulatory-mandate claims. Technical terms retained only as clearly qualified concepts, not as evidence of PayPal deployment.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_11_14.json"
+  },
+  "DIG_14": {
+    "ID": "DIG_14",
+    "sources": [
+      "https://developers.openai.com/api/docs/guides/your-data",
+      "https://learn.chatgpt.com/docs/dots/controls"
+    ],
+    "source_review": "Official API data-controls documentation and ChatGPT controls page fetched. API no-training default verified. Consumer controls kept product/account-conditional; no unsupported current UI or universal consumer default asserted.",
+    "notes": "Corrected automatic API-training claim and invented opt-out retraining/backdoor/latency mechanism. Distinguished training permission from retention, deletion and historical model contributions.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_11_14.json"
+  },
+  "DIG_15": {
+    "ID": "DIG_15",
+    "sources": [
+      "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en",
+      "https://www.legislation.gov.uk/eur/2016/679/pdfs/eur_20160679_2016-05-04_en.pdf"
+    ],
+    "source_review": "EDPB EU guidance checked against original GDPR instrument, not amended UK GDPR. Article 22 exceptions and safeguards distinguished.",
+    "notes": "Corrected incomplete exception list and conflation of objections with Article 22 rights.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_15_20.json"
+  },
+  "DIG_16": {
+    "ID": "DIG_16",
+    "sources": [
+      "https://www.edpb.europa.eu/system/files/2023-02/edpb_03-2022_guidelines_on_deceptive_design_patterns_in_social_media_platform_interfaces_v2_en_0.pdf",
+      "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+      "https://www.legislation.gov.uk/eur/2016/679/pdfs/eur_20160679_2016-05-04_en.pdf"
+    ],
+    "source_review": "EDPB deceptive-design and consent guidance checked; statutory provisions anchored to original EU GDPR.",
+    "notes": "Removed claim that every nudge is unlawful and that refusal can never affect any service; retained affirmative consent and withdrawal protections.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_15_20.json"
+  },
+  "DIG_17": {
+    "ID": "DIG_17",
+    "sources": [
+      "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en",
+      "https://www.legislation.gov.uk/eur/2016/679/pdfs/eur_20160679_2016-05-04_en.pdf"
+    ],
+    "source_review": "EDPB portability guidance and original Article 20 checked; observed and inferred data distinguished.",
+    "notes": "Removed invented universal API, OAuth and real-time obligations; no automatic erasure after transfer.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_15_20.json"
+  },
+  "DIG_18": {
+    "ID": "DIG_18",
+    "sources": [
+      "https://www.edpb.europa.eu/sme/assess-the-risks/data-breaches_en",
+      "https://www.edpb.europa.eu/system/files/2023-04/edpb_guidelines_202209_personal_data_breach_notification_v2.0_en.pdf",
+      "https://www.legislation.gov.uk/eur/2016/679/pdfs/eur_20160679_2016-05-04_en.pdf"
+    ],
+    "source_review": "EDPB breach guidance and GDPR Articles 33–34 checked. User prompt itself conflates deadlines; corrected at all levels.",
+    "notes": "Distinguished risk versus high-risk thresholds and authority versus individual communication; no automatic fine or all-hacks deadline.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_15_20.json"
+  },
+  "DIG_19": {
+    "ID": "DIG_19",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-print-1574.html"
+    ],
+    "source_review": "Official consolidated Bengali text checked for Sections 1(3), 2(23), 37 and 41, including delayed commencement and repeal notice; historical scope explicit.",
+    "notes": "Corrected wrong section, sentence certainty, blanket disclosure claim, category expansion and immediate/current enforceability assumption.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_15_20.json"
+  },
+  "DIG_20": {
+    "ID": "DIG_20",
+    "sources": [
+      "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en",
+      "https://www.legislation.gov.uk/eur/2016/679/pdfs/eur_20160679_2016-05-04_en.pdf"
+    ],
+    "source_review": "EU GDPR profiling definition, Article 21 objections and Article 22 conditions checked against original instrument and EDPB guidance; not amended UK law.",
+    "notes": "Replaced blanket profiling prohibition and generic public-interest exception with conditional rights and safeguards.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_DIG_15_20.json"
+  },
+  "LAB_01": {
+    "ID": "LAB_01",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-952/act-chapter-print-1034.html",
+      "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/76402/BGD76402%20Eng.pdf"
+    ],
+    "source_review": "Official current consolidated Sections 46–48 checked via government indexed text; older ILO-hosted text identified for historical contrast, direct PDF access blocked. Current sixty-day periods and divisor26 verified.",
+    "notes": "Corrected twelve-week/84-day benefit, wage formula, living-child condition and unpaid-leave claims; current versus historical versions explicit.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_02": {
+    "ID": "LAB_02",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-952/act-chapter-print-1039.html",
+      "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB%3A13100%3A0%3A%3ANO%3A%3AP13100_COMMENT_ID%2CP13100_LANG_CODE%3A2291051%2Cen"
+    ],
+    "source_review": "Official hours chapter and ILO Committee explanation checked; ordinary and overtime daily/weekly limits distinguished.",
+    "notes": "Corrected wrong sections34/35, ordinary-hours definition and unconditional liability/compulsion claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_03": {
+    "ID": "LAB_03",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-952/act-chapter-print-1032.html"
+    ],
+    "source_review": "Official consolidated Section26 checked, including permanent/temporary distinction and payment in lieu; no fabricated case law used.",
+    "notes": "Corrected section references, classification, oral-notice implication, immediate-termination prohibition and unsupported damages.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_04": {
+    "ID": "LAB_04",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-952/act-chapter-print-1042.html"
+    ],
+    "source_review": "Official ChapterXII Sections150,151,157 checked, including explicit exclusions and exceptions; no invented judicial presumptions retained.",
+    "notes": "Corrected section43, blanket coverage, age/wage formula, burden-shift and30-day claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_05": {
+    "ID": "LAB_05",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-952/act-chapter-print-1039.html"
+    ],
+    "source_review": "Official Section108 checked; specified components distinguished from gross pay; example conditional on correctly established ordinary hourly rate.",
+    "notes": "Corrected wrong section, gross-salary equivalence, all-allowance expansion and incomplete monthly-to-hourly calculation.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_06": {
+    "ID": "LAB_06",
+    "sources": [
+      "https://normlex.ilo.org/dyn/nrmlx_fr/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_ILO_CODE%3AC155",
+      "https://normlex.ilo.org/dyn/nrmlx_fr/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_INSTRUMENT_ID%2CP12100_LANG_CODE%3A312300%2Cen"
+    ],
+    "source_review": "Official indexed Article13 and19(f) text checked despite intermittent direct-page redirect loop; no universal domestic remedy inferred.",
+    "notes": "Corrected Article15 and absolute termination/burden-shift claims. National conditions and reasonable justification preserved.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_07": {
+    "ID": "LAB_07",
+    "sources": [
+      "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_ILO_CODE%3AC155",
+      "https://www.ilo.org/publications/fundamental-conventions-occupational-safety-and-health"
+    ],
+    "source_review": "Official Convention employer-duty provision identified and checked against ILO fundamental-OSH material; examples distinguished from express treaty inspection specifications.",
+    "notes": "Corrected Article5, zero-risk absolute mandate, and universal liability/burden claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_08": {
+    "ID": "LAB_08",
+    "sources": [
+      "https://normlex.ilo.org/dyn/nrmlx_fr/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_INSTRUMENT_ID%2CP12100_LANG_CODE%3A312300%2Cen",
+      "https://www.ilo.org/normlex-permalink/comment/en/4408826"
+    ],
+    "source_review": "Official Article21 indexed text and ILO Committee interpretation concerning PPE maintenance/proper use checked; unrelated-charge blanket claims not retained.",
+    "notes": "Corrected Article4 attribution and expansion to all insurance/union dues and all remediation costs.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_01_08.json"
+  },
+  "LAB_09": {
+    "ID": "LAB_09",
+    "sources": [
+      "https://supremecourt.uk/cases/uksc-2019-0029",
+      "https://supremecourt.uk/uploads/uksc_2019_0029_judgment_19c9de2253.pdf",
+      "https://help.uber.com/bn-BD/driving-and-delivering/article/cancellation-policy?nodeId=2f1bec45-b436-4272-a766-9f5b2cf757b8"
+    ],
+    "source_review": "Primary Supreme Court case/judgment and Uber contractual-label guidance checked; jurisdiction-specific counterexample not universalized.",
+    "notes": "Corrected contract-label supremacy, worldwide exclusion of rights, assumed exclusivity and absolute autonomy claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_09_15.json"
+  },
+  "LAB_10": {
+    "ID": "LAB_10",
+    "sources": [
+      "https://www.pandariders.sg/help-center/",
+      "https://www.pandariders.sg/insurance/"
+    ],
+    "source_review": "Official rider help and insurance pages checked. Exact country/edition indemnity clause unavailable, so mechanisms are explicitly conditional rather than attributed as universal Foodpanda terms.",
+    "notes": "Removed fabricated all-lawsuits, unlimited consequential damages and universal insurance-exclusion claims. Exact agreement remains source-limited.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_09_15.json"
+  },
+  "LAB_11": {
+    "ID": "LAB_11",
+    "sources": [
+      "https://www.pandariders.sg/insurance/",
+      "https://www.pandariders.sg/help-center/"
+    ],
+    "source_review": "Official rider insurance/help pages checked. Exact country contract unspecified; general cost analysis distinguished from verified contractual mandates.",
+    "notes": "Removed universal no-subsidy/no-cover/comprehensive-policy assertions and clarified depreciation versus cash/tax accounting.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_09_15.json"
+  },
+  "LAB_12": {
+    "ID": "LAB_12",
+    "sources": [
+      "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-legislativediv/2024/12/2caad785f7ef4c299defe7157815f7b3.pdf",
+      "https://bdlaws.minlaw.gov.bd/act-print-1131.html"
+    ],
+    "source_review": "Official legislative-division English2013 text Sections22,27–29,41 checked, with consolidated Bengali amendment page distinguished.",
+    "notes": "Corrected dataset's Labour Court premise; removed imaginary oath, age/literacy burden relaxation and automatic awards.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_09_15.json"
+  },
+  "LAB_13": {
+    "ID": "LAB_13",
+    "sources": [
+      "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-legislativediv/2024/12/2caad785f7ef4c299defe7157815f7b3.pdf",
+      "https://bdlaws.minlaw.gov.bd/act-1131/act-chapter-print-1813.html"
+    ],
+    "source_review": "Official original Sections2(4),31,33,36 checked; consolidated Bengali amendment note specifies min2/max7. Historical and amended sentences kept distinct.",
+    "notes": "Replaced invented blacklist/deportation narrative, wrong jurisdiction and nonexistent36(3) claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_09_15.json"
+  },
+  "LAB_14": {
+    "ID": "LAB_14",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-print-1131.html",
+      "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-legislativediv/2024/12/2caad785f7ef4c299defe7157815f7b3.pdf"
+    ],
+    "source_review": "Official Section6 and preamble checked, including broad enumerated grounds and scope beyond selection.",
+    "notes": "Corrected preamble-only/corporate framing, immutable-only grounds and invented algorithm standardization mandate.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_09_15.json"
+  },
+  "LAB_15": {
+    "ID": "LAB_15",
+    "sources": [
+      "https://lawphil.net/statutes/repacts/ra2010/ra_10022_2010.html",
+      "https://lawphil.net/judjuris/juri2026/feb2026/gr_268486_2026.html"
+    ],
+    "source_review": "Amending Act's Sections6/7 penalties and Philippine Supreme Court illegal-recruitment elements checked; historical1995 penalties not represented as current amended law.",
+    "notes": "Corrected section10 criminal framing, penalties, economic sabotage tests and impossible transfer of criminal punishment.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_LAB_09_15.json"
+  },
+  "MTS_01": {
+    "ID": "MTS_01",
+    "sources": [
+      "https://static.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+      "https://www.un.org/depts/los/convention_agreements/texts/unclos/part7.htm"
+    ],
+    "source_review": "Official UNCLOS Article98 checked; serious-danger and reasonably-expected qualifications retained; no universal-jurisdiction inference.",
+    "notes": "Corrected absolute/no-risk-exception duty and automatic aircraft/universal-jurisdiction claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_MTS_01_05.json"
+  },
+  "MTS_02": {
+    "ID": "MTS_02",
+    "sources": [
+      "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.47%2866%29.pdf",
+      "https://www.imo.org/en/ourwork/safety/pages/lifesavingappliances-default.aspx"
+    ],
+    "source_review": "IMO primary Regulation21 amendment text checked with50/37.5/25 and short-voyage30percent distinctions; current ship-specific applicability cautioned.",
+    "notes": "Corrected universal configuration and survival/total-loss inference. Added essential permitted substitutions and voyage categories.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_MTS_01_05.json"
+  },
+  "MTS_03": {
+    "ID": "MTS_03",
+    "sources": [
+      "https://www.govinfo.gov/content/pkg/CFR-2024-title14-vol1/pdf/CFR-2024-title14-vol1-sec25-841.pdf",
+      "https://www.faa.gov/sites/faa.gov/files/19_phak_ch17.pdf"
+    ],
+    "source_review": "Official2024 CFR25.841 and FAA physiological education table checked; precise version named rather than claiming all current operation rules reviewed.",
+    "notes": "Removed near-vacuum, egress, fixed irreversible-injury and imaginary10,000ft/20or30minute claims; useful consciousness not guaranteed unconsciousness latency.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_MTS_01_05.json"
+  },
+  "MTS_04": {
+    "ID": "MTS_04",
+    "sources": [
+      "https://www.iata.org/en/youandiata/travelers/batteries",
+      "https://www.iata.org/en/programs/cargo/dangerous-goods//dgr-guidance-passengers",
+      "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/lithium-battery-vehicles-cargo.pdf"
+    ],
+    "source_review": "Official IATA public battery thresholds and passenger guidance checked. Power-bank/current airline differences and special-device exceptions explicit; generic common two-spare category not guaranteed universal approval.",
+    "notes": "Corrected absolute>100Wh cabin ban and cargo-as-universal-alternative claim. Terminal protection applies to permitted larger spares too.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_MTS_01_05.json"
+  },
+  "MTS_05": {
+    "ID": "MTS_05",
+    "sources": [
+      "https://cdn.who.int/media/docs/default-source/documents/emergencies/travel-advice/extension-to-life-on-yellow-fever-vaccination-en.pdf?download=true",
+      "https://www.canada.ca/en/public-health/services/travel-health/yellow-fever/travellers-going-yellow-fever-areas.html"
+    ],
+    "source_review": "WHO Annex7 amendment and public-health travel guidance checked: ten days/lifetime/existing certificates. Actual itinerary restrictions not inferred.",
+    "notes": "Removed invented QR obligation, booster revalidation caveat and universal transit/entry consequences; medical advice separate.",
+    "batch_file": "newly_generated_answers/manual_full_set/root_batch_MTS_01_05.json"
+  },
+  "FDS_01": {
+    "ID": "FDS_01",
+    "sources": [
+      "https://www.fda.gov/media/140394/download",
+      "https://www.fda.gov/food/raw-milk-misconceptions-and-danger-raw-milk-consumption"
+    ],
+    "source_review": "FDA PMO temperature table and FDA pathogen explanation checked; technical corrections made, not a plant-specific validation protocol.",
+    "notes": "Corrected 164°F to161°F; removed invented Salmonella/E.coli log targets, F0 equivalence, commercial sterility claim and spore-strip validation.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "FDS_02": {
+    "ID": "FDS_02",
+    "sources": [
+      "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "https://www.fda.gov/food/food-allergies/faster-act-sesame-ninth-major-food-allergen",
+      "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+    ],
+    "source_review": "FDA sesame and labeling information checked; EU Annex II reference retained with thresholds and exemptions; no universal trace-label mandate asserted.",
+    "notes": "Corrected exclusion of sesame and mandatory May contain claims. Original Mid/Low FK bounds overlap; preserve bounds without implying large per-topic register gap.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "FDS_03": {
+    "ID": "FDS_03",
+    "sources": [
+      "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/fdas-drug-review-process-ensuring-drugs-are-safe-and-effective"
+    ],
+    "source_review": "FDA clinical phase descriptions and sample ranges checked. Regulatory references are contextual, not a universal mandatory sequence or enrollment rule.",
+    "notes": "Removed incorrect 312.30 as initial IND rule, universal maximum tolerated/effective dose claims and fixed enrollment mandates.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "FDS_04": {
+    "ID": "FDS_04",
+    "sources": [
+      "https://www.ema.europa.eu/system/files/documents/scientific-guideline/wc500002749_en.pdf",
+      "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/clinical-trials-human-medicines/reporting-safety-information-clinical-trials"
+    ],
+    "source_review": "ICH E2A expedited reporting definition and 7+8/15-day sponsor deadlines checked; EU trial reporting distinguished from postmarketing rules.",
+    "notes": "Corrected blanket healthcare-professional/postmarketing deadlines and requirement to establish causality before reporting.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "FDS_05": {
+    "ID": "FDS_05",
+    "sources": [
+      "https://www.who.int/docs/librariesprovider2/default-document-library/5keys_en.pdf",
+      "https://www.who.int/europe/news-room/fact-sheets/item/public-health-advice-on-food-safety-during-summer"
+    ],
+    "source_review": "WHO safe-temperature and two-hour advice checked; avoided false universal kinetic or legal claims.",
+    "notes": "Removed universal mandatory <=5°C, automatic lethal excursion, fixed 10^8 CFU/g and universal real-time telemetry claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "NIS_01": {
+    "ID": "NIS_01",
+    "sources": [
+      "https://www-pub.iaea.org/MTCD/Publications/PDF/AdditionalVolumes/P1710/Pub1710-TV3-Web.pdf",
+      "https://nucleus.iaea.org/sites/nss-oui/Published%20Collections/m_0fce2a40-ac12-4db9-ad3b-e4bfc93f678e/m_0fce2a40-ac12-4db9-ad3b-e4bfc93f678e__27_0.Html"
+    ],
+    "source_review": "IAEA Fukushima report distinguishes20 km evacuation/20–30 km shelter; checked GSR Part7 title and non-universal response framing.",
+    "notes": "Corrected universal30 km Level7 protocol, Fukushima history and GSR Part7 misidentification.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "NIS_02": {
+    "ID": "NIS_02",
+    "sources": [
+      "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146",
+      "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146AppB"
+    ],
+    "source_review": "OSHA permit-space criteria, oxygen cutoffs, testing order and monitoring duties checked.",
+    "notes": "Corrected reversed test order and false universal15-minute rule; removed physiological threshold guarantees and oxygen-only safety claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "NIS_03": {
+    "ID": "NIS_03",
+    "sources": [
+      "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+      "https://www.osha.gov/Publications/osha3120.pdf"
+    ],
+    "source_review": "OSHA energy isolation, stored-energy verification, lock/tag conditions and removal safeguards checked.",
+    "notes": "Removed unsourced10% statistic, invented employee class, start-attempt-only verification and absolute no-exceptions removal claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "NIS_04": {
+    "ID": "NIS_04",
+    "sources": [
+      "https://unece.org/transport/dangerous-goods/ghs-rev10-2023",
+      "https://unece.org/sites/default/files/2023-07/GHS%20Rev10e.pdf",
+      "https://www.osha.gov/hazcom"
+    ],
+    "source_review": "UN Revision10 SDS structure and hazard communication framework checked; edition fixed to dataset reference rather than asserted latest.",
+    "notes": "Corrected automatic worldwide mandate, Section1 signal-word rule, universal1% threshold, category-number example and immediate-update requirement.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "NIS_05": {
+    "ID": "NIS_05",
+    "sources": [
+      "https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1775_web.pdf",
+      "https://nucleus.iaea.org/sites/nss-oui/Published%20Collections/m_3761d926-c16f-4477-a63b-741a9db1c16c/m_3761d926-c16f-4477-a63b-741a9db1c16c__50_0.Html"
+    ],
+    "source_review": "IAEA GSR Part3 dose table checked directly; avoided individual numerical cancer-risk claims and incorrect tissue-weighting reference-person assertion.",
+    "notes": "Corrected public five-year averaging, occupational20/50 limits, medical exclusion and risk interpretation.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_01.json"
+  },
+  "REF_01": {
+    "ID": "REF_01",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf",
+      "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention"
+    ],
+    "source_review": "Article33 text and distinction from1F checked against Convention; torture nonreturn treated separately, not as unrestricted33(2) permission.",
+    "notes": "Corrected exception and absolute/jus-cogens assertions; removed named-individual-targeting requirement.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_02": {
+    "ID": "REF_02",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf",
+      "https://treaties-prod.un.org/Pages/ViewDetails.aspx?chapter=5&clang=_en&mtdsg_no=V-5&src=TREATY"
+    ],
+    "source_review": "Definition, Protocol scope and declaration caveat checked; benefits described subject to their treaty conditions.",
+    "notes": "Corrected asylum-seeker/economic-migrant conflation, constitutive-recognition claim, and absolute removal of all geographical reservations.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_03": {
+    "ID": "REF_03",
+    "sources": [
+      "https://www.un.org/en/udhrbook/pdf/udhr_booklet_en_web.pdf",
+      "https://www.ohchr.org/sites/default/files/refugees.pdf"
+    ],
+    "source_review": "UDHR14 and distinct Refugee Convention exclusion framework checked; no claim of automatic asylum/admission or automatic removal after exclusion.",
+    "notes": "Corrected blanket thief/fraud exclusion and return permission; protected grounds not limited to political persecution.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_04": {
+    "ID": "REF_04",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf"
+    ],
+    "source_review": "Article17 including lawful-stay qualification and17(2) exceptions checked directly; Article18/19 distinguished.",
+    "notes": "Corrected Article18 misattribution and unconditional all-asylum-seeker/all-job parity claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_05": {
+    "ID": "REF_05",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/Documents/ProfessionalInterest/refugees.pdf"
+    ],
+    "source_review": "Articles27/28 and travel-document exceptions checked against text.",
+    "notes": "Removed recognition-only and immediate-issuance conditions, passport-equivalence and invented permanent-address requirements.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_06": {
+    "ID": "REF_06",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf"
+    ],
+    "source_review": "Article34 checked, including often-omitted reduction of charges and costs.",
+    "notes": "Added fee/cost duty; avoided compulsory cultural assimilation and guaranteed citizenship implications.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_07": {
+    "ID": "REF_07",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf"
+    ],
+    "source_review": "Article22 distinction and its specific certificate/fee/scholarship coverage checked.",
+    "notes": "Corrected automatic secondary-school national parity and false claim citizen preferences cannot be extended to refugees.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_08": {
+    "ID": "REF_08",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf"
+    ],
+    "source_review": "Article26 lawful-in qualification and Article31 temporary restriction terms checked.",
+    "notes": "Removed invented employment prerequisite, automatic suspension and unfettered alien-regulation discretion.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_09": {
+    "ID": "REF_09",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf"
+    ],
+    "source_review": "Article20 general-population rationing scope and national-treatment standard checked.",
+    "notes": "Corrected identical-per-capita allocation and same-queue mandates; clarified no duty to create rationing.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "REF_10": {
+    "ID": "REF_10",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/refugees.pdf"
+    ],
+    "source_review": "All three Article16 paragraphs checked; free access distinguished from free-of-cost universal representation.",
+    "notes": "Corrected universal fee-free implication and citizen-parity scope; no invented treaty complaint mechanism.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_02.json"
+  },
+  "DIS_01": {
+    "ID": "DIS_01",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html"
+    ],
+    "source_review": "CRPD Articles2/5 definition and denial-as-discrimination framework checked via UN treaty materials; examples are illustrative, not guaranteed outcomes.",
+    "notes": "Clarified accessibility/accommodation distinction and that provider disagreement does not itself erase duty. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_02": {
+    "ID": "DIS_02",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-12-equal-recognition-before-the-law.html",
+      "https://searchlibrary.ohchr.org/record/32064/files/9789240080737-eng.pdf"
+    ],
+    "source_review": "Article12 safeguards and Committee interpretation checked against UN/WHO-OHCHR materials.",
+    "notes": "Corrected claim last-resort substitute guardianship is endorsed as treaty-compliant. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_03": {
+    "ID": "DIS_03",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-14-liberty-and-security-of-person.html",
+      "https://searchlibrary.ohchr.org/record/32064/files/9789240080737-eng.pdf"
+    ],
+    "source_review": "Article14 treaty rule and Committee/WHO-OHCHR supported-community approach checked; broader procedural rights distinguished from exact article wording.",
+    "notes": "Removed claim individualized incapacity assessments justify detention and automatic least-restrictive compliance. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_04": {
+    "ID": "DIS_04",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-15-freedom-from-torture-or-cruel-inhuman-or-degrading-treatment-or-punishment.html",
+      "https://searchlibrary.ohchr.org/record/32064/files/9789240080737-eng.pdf"
+    ],
+    "source_review": "Article15 consent and prevention rule checked; related13/17/25 distinguished; no categorical classification of all malpractice as torture.",
+    "notes": "Corrected incomplete state-measures list and invented general reversal of burden of proof. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_05": {
+    "ID": "DIS_05",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-22-respect-for-privacy.html"
+    ],
+    "source_review": "Article22 complete scope including regardless of living arrangements checked; general lawful-processing caveat avoids unsupported absolute consent rule.",
+    "notes": "Corrected claim equal protection forbids stronger safeguards or any nonconsensual lawful processing. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_06": {
+    "ID": "DIS_06",
+    "sources": [
+      "https://social.desa.un.org/issues/disability/crpd/article-24-education"
+    ],
+    "source_review": "Article24 school exclusion, support, communication and lifelong education terms checked.",
+    "notes": "Corrected integration/inclusion conflation and unsupported curriculum-decolonization-as-express-duty claim. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_07": {
+    "ID": "DIS_07",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-26-habilitation-and-rehabilitation.html"
+    ],
+    "source_review": "Article26 voluntariness, early multidisciplinary assessment, rural provision, training and technology checked.",
+    "notes": "Removed universal infant screening and fixed neuroplasticity-window claims; retained voluntary community basis. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_08": {
+    "ID": "DIS_08",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-27-work-and-employment.html"
+    ],
+    "source_review": "Article27 employment lifecycle, public/private sector, self-employment and forced-labor clauses checked.",
+    "notes": "Clarified no unconditional individualized financial-support or guaranteed-job entitlement. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_09": {
+    "ID": "DIS_09",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-28-adequate-standard-of-living-and-social-protection.html"
+    ],
+    "source_review": "Article28 full social-protection list checked; related rights and progressive realization qualified.",
+    "notes": "Corrected original Article25 attribution; added concrete water, poverty-cost, housing and retirement clauses. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "DIS_10": {
+    "ID": "DIS_10",
+    "sources": [
+      "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-29-participation-in-political-and-public-life.html"
+    ],
+    "source_review": "Article29 secret ballot, assistance on request/by choice, election and association rights checked.",
+    "notes": "Corrected claim voting must always be physically unaided and invented mandatory remote/digital technologies. Root reviewed and revised plain-language prose for FK bounds without changing the source-corrected brief.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_03.json"
+  },
+  "CRI_01": {
+    "ID": "CRI_01",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://digitallibrary.un.org/record/606075/files/CCPR_C_GC_32-EN.pdf"
+    ],
+    "source_review": "Article14(3)(g), GC32 coercion interpretation and related7/14(2) checked.",
+    "notes": "Removed false double-jeopardy connection and blanket immunity claim; distinguished US domestic rules.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_02": {
+    "ID": "CRI_02",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://www.ohchr.org/sites/default/files/Documents/Issues/Detention/Opinions/Session90/A_HRC_WGAD_2021_16.pdf"
+    ],
+    "source_review": "Article9(4) and distinction from9(3) checked; practical court remedy framed independently of writ label.",
+    "notes": "Corrected conflation of automatic production before judge with court challenge initiated by detainee.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_03": {
+    "ID": "CRI_03",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://digitallibrary.un.org/record/606075/files/CCPR_C_GC_32-EN.pdf"
+    ],
+    "source_review": "Article14(2) and GC32 burden/doubt/public-authority safeguards checked.",
+    "notes": "Corrected absolute-certainty claim and overly broad ban on any pretrial treatment as suspect.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_04": {
+    "ID": "CRI_04",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://digitallibrary.un.org/record/606075/files/CCPR_C_GC_32-EN.pdf"
+    ],
+    "source_review": "Article14(7), GC32 exceptional reopening and interstate limitation checked.",
+    "notes": "Added territorial scope and qualified reopening instead of unrestricted statutory exception.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_05": {
+    "ID": "CRI_05",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://digitallibrary.un.org/record/606075/files/CCPR_C_GC_32-EN.pdf"
+    ],
+    "source_review": "Article14(3)(b)/(d) free-assistance conditions and preparation safeguards checked.",
+    "notes": "Added means/interests-of-justice conditions and qualified lawyer choice/public funding.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_06": {
+    "ID": "CRI_06",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html"
+    ],
+    "source_review": "Article10 humane treatment, separation and rehabilitation text checked; Article7 distinguished.",
+    "notes": "Restored Article10 attribution and its often-omitted positive and juvenile duties.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_07": {
+    "ID": "CRI_07",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://www.ohchr.org/sites/default/files/Documents/Issues/Detention/Opinions/Session90/A_HRC_WGAD_2021_16.pdf"
+    ],
+    "source_review": "Article9(3), GC35 48-hour interpretation, judicial independence and release alternatives checked.",
+    "notes": "Corrected routine48–72-hour claim, mandatory conditions on release and resource-based delay excuse.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_08": {
+    "ID": "CRI_08",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html"
+    ],
+    "source_review": "Article15 full text including lighter penalty and15(2), plus nonderogability under4, checked.",
+    "notes": "Added omitted lighter-penalty guarantee and international-law clause; removed amnesty-as-retroactivity-exception.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_09": {
+    "ID": "CRI_09",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://digitallibrary.un.org/record/606075/files/CCPR_C_GC_32-EN.pdf"
+    ],
+    "source_review": "Article14(1) scope, closure/judgment exceptions, GC32 and Article4 distinction checked.",
+    "notes": "Corrected all-administrative-hearings claim and whole-Article14 absolute nonderogability.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "CRI_10": {
+    "ID": "CRI_10",
+    "sources": [
+      "https://2covenants.ohchr.org/About-ICCPR.html",
+      "https://digitallibrary.un.org/record/606075/files/CCPR_C_GC_32-EN.pdf"
+    ],
+    "source_review": "Article14(3)(f) and GC32 criminal/oral/effective-language-use scope checked.",
+    "notes": "Corrected universal civil/witness/counsel application and automatic void/non-derogable claims. Final Low sentence revision preserves the procedural scope and competent-assistance requirement within the original readability band.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_04.json"
+  },
+  "ENV_01": {
+    "ID": "ENV_01",
+    "sources": [
+      "https://unece.org/environment-policy/public-participation/aarhus-convention/content",
+      "https://unece.org/environment-policy/public-participation/access-to-justice",
+      "https://aarhusclearinghouse.unece.org/resources/aarhus-convention-implementation-guide-second-edition"
+    ],
+    "source_review": "UNECE information/justice framework and article mapping checked; full PDF access blocked, so no claim of a complete local-law audit.",
+    "notes": "Qualified original unconditional provision and global application; preserved on-request/proactive distinction.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_02": {
+    "ID": "ENV_02",
+    "sources": [
+      "https://unece.org/transport/dangerous-goods/ghs-rev10-2023",
+      "https://unece.org/sites/default/files/2023-07/GHS%20Rev10e.pdf"
+    ],
+    "source_review": "UN GHS framework/SDS layout checked; no automatic global legal adoption claimed.",
+    "notes": "Corrected assertion every state is legally required to adopt GHS by GHS itself.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_03": {
+    "ID": "ENV_03",
+    "sources": [
+      "https://unece.org/environment-policy/public-participation/aarhus-convention/content",
+      "https://aarhusclearinghouse.unece.org/resources/aarhus-convention-implementation-guide-second-edition"
+    ],
+    "source_review": "UNECE Article6/7/8 mapping, Convention status and EU2005 party date checked; no automatic judicial remedy claimed.",
+    "notes": "Corrected plans/programs Article6 misattribution and invented2001 EU protocol; clarified participation not veto.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_04": {
+    "ID": "ENV_04",
+    "sources": [
+      "https://unece.org/environment-policy/public-participation/access-to-justice",
+      "https://unece.org/sites/default/files/2024-01/Joint_submission_Aarhus_secretariat_and_SR_Env_Defenders_18.12.2023.pdf"
+    ],
+    "source_review": "UNECE three justice routes and safeguards checked directly.",
+    "notes": "Corrected invented three pillars, universal standing, higher appeal and mandatory exhaustion claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_05": {
+    "ID": "ENV_05",
+    "sources": [
+      "https://www.un.org/esa/documents/ga/conf151/aconf15126-1.htm",
+      "https://www.un.org/esa/documents/ecosoc/cn17/1997/ecn171997-8.htm"
+    ],
+    "source_review": "Rio16 wording and UN implementation analysis checked; soft-law status separated from actual liability regimes.",
+    "notes": "Corrected full-cost automatic liability and automatic trade-distortion inference.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_06": {
+    "ID": "ENV_06",
+    "sources": [
+      "https://www.un.org/esa/documents/ga/conf151/aconf15126-1.htm"
+    ],
+    "source_review": "Rio15 serious/irreversible, cost-effectiveness and capabilities qualifications checked.",
+    "notes": "Removed universal burden reversal, absolute safety proof and invariably cheaper prevention claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_07": {
+    "ID": "ENV_07",
+    "sources": [
+      "https://www.un.org/esa/documents/ga/conf151/aconf15126-1.htm",
+      "https://www.un.org/esa/documents/ecosoc/cn17/1997/ecn171997-8.htm"
+    ],
+    "source_review": "Rio17 actual trigger checked; EIA stages clearly described as common practice, not verbatim treaty mandates.",
+    "notes": "Corrected Principle14, fabricated quotation and baseline-as-experimental-control claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_08": {
+    "ID": "ENV_08",
+    "sources": [
+      "https://www.un.org/esa/documents/ga/conf151/aconf15126-1.htm"
+    ],
+    "source_review": "Rio2/18/19 and distinction from7/15 checked; no automatic veto/compensation asserted.",
+    "notes": "Corrected Principle15 attribution, CBDR confusion, automatic veto and burden-shift claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_09": {
+    "ID": "ENV_09",
+    "sources": [
+      "https://www.basel.int/Default.aspx?tabid=1271"
+    ],
+    "source_review": "Basel Secretariat overview checked for Article4 prohibitions, Article11 agreements and prior-informed-consent process; specific shipment not assessed.",
+    "notes": "Corrected false no-nonparty-ban and universal disposal-over-recovery preference.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "ENV_10": {
+    "ID": "ENV_10",
+    "sources": [
+      "https://www.cbd.int/abs/text/articles?sec=abs-05",
+      "https://www.cbd.int/abs/text/articles?sec=abs-06",
+      "https://www.cbd.int/abs/text/articles?sec=abs-18",
+      "https://www.cbd.int/abs/text/articles?sec=abs-04"
+    ],
+    "source_review": "Protocol5/6/18/4 checked directly; consent/domestic law and specialized-instrument qualifications retained.",
+    "notes": "Corrected invented PWA, mandatory state-to-state contract, mutual-recognition waiver and ITLOS jurisdiction.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_05.json"
+  },
+  "IND_01": {
+    "ID": "IND_01",
+    "sources": [
+      "https://cambodia.ohchr.org/iplands/wp-content/uploads/2021/04/UNITED-NATIONS-DECLARATION-ON-THE-RIGHTS-OF-INDIGENOUS-PEOPLES.pdf",
+      "https://legal.un.org/avl/ha/ga_61-295/ga_61-295.html"
+    ],
+    "source_review": "Article10 wording/compensation/return and Declaration status checked through UN materials.",
+    "notes": "Corrected Article32 relocation attribution, universal constitutional/veto claim and ban on all preliminary planning.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_02": {
+    "ID": "IND_02",
+    "sources": [
+      "https://cambodia.ohchr.org/iplands/wp-content/uploads/2021/04/UNITED-NATIONS-DECLARATION-ON-THE-RIGHTS-OF-INDIGENOUS-PEOPLES.pdf",
+      "https://legal.un.org/avl/ha/ga_61-295/ga_61-295.html"
+    ],
+    "source_review": "Articles11/12/31 actual scope and redress checked.",
+    "notes": "Removed unsupported exclusive criminal jurisdiction,100% profits and universal heritage veto.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_03": {
+    "ID": "IND_03",
+    "sources": [
+      "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.18_declaration%20rights%20indigenous%20peoples.pdf",
+      "https://www.cbd.int/abs/text/articles?sec=abs-05"
+    ],
+    "source_review": "UNDRIP24/31/32 mapped correctly; Nagoya benefits framework checked; no specific herbal remedy or efficacy claim offered.",
+    "notes": "Corrected Article31/32 as primary medicine provision; removed inevitable-extinction and knowledge-legal-personhood assertions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_04": {
+    "ID": "IND_04",
+    "sources": [
+      "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.18_declaration%20rights%20indigenous%20peoples.pdf",
+      "https://legal.un.org/avl/ha/ga_61-295/ga_61-295.html"
+    ],
+    "source_review": "UNDRIP25–28/32 checked for tenure, recognition and remedy scope; no country-specific title determination made.",
+    "notes": "Removed blanket inalienability/all-collective-only title and guaranteed extraction-benefit implications.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_05": {
+    "ID": "IND_05",
+    "sources": [
+      "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.18_declaration%20rights%20indigenous%20peoples.pdf"
+    ],
+    "source_review": "Article32 including own institutions and32(3) redress/mitigation checked; distinguished explicit other consent clauses.",
+    "notes": "Qualified universal veto and automatic international-sanctions assertions without reducing consent to notice.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_06": {
+    "ID": "IND_06",
+    "sources": [
+      "https://www.un.org/development/desa/Indigenouspeoples/wp-content/uploads/sites/19/2018/11/UNDRIP_E_web.pdf"
+    ],
+    "source_review": "Article30 both paragraphs checked directly; alternative public-interest/agreement/request routes preserved.",
+    "notes": "Corrected article attribution and false cumulative public-interest-plus-consent test. Original Mid FK8.18 and Low10.44 +/-1 bands cannot satisfy Mid>Low; preserve stated bands and flag ordering conflict.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_07": {
+    "ID": "IND_07",
+    "sources": [
+      "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.18_declaration%20rights%20indigenous%20peoples.pdf"
+    ],
+    "source_review": "Article13 substantive list/proceedings assistance and Article14 distinction checked.",
+    "notes": "Removed invented universal language legal personhood and automatic digital-property entitlement.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_08": {
+    "ID": "IND_08",
+    "sources": [
+      "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.18_declaration%20rights%20indigenous%20peoples.pdf"
+    ],
+    "source_review": "Articles33/9/3 and citizenship caveat checked; no universal membership test inferred.",
+    "notes": "Corrected Article13 attribution and removed cultural-purity/closed-knowledge assertions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_09": {
+    "ID": "IND_09",
+    "sources": [
+      "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.18_declaration%20rights%20indigenous%20peoples.pdf"
+    ],
+    "source_review": "Article17 employment and child-labor protections checked, separated from18/19/32.",
+    "notes": "Corrected Article18 attribution and fabricated quotation; removed universal work-contract veto and Forum-as-court implication.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "IND_10": {
+    "ID": "IND_10",
+    "sources": [
+      "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.18_declaration%20rights%20indigenous%20peoples.pdf"
+    ],
+    "source_review": "Article16 public/private distinctions and own-language/non-Indigenous access checked.",
+    "notes": "Corrected Articles13/14 attribution and guaranteed funding/license implication.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_06.json"
+  },
+  "CON_01": {
+    "ID": "CON_01",
+    "sources": [
+      "https://uncitral.un.org/en/texts/arbitration/contractualtexts/arbitration",
+      "https://uncitral.un.org/sites/default/files/media-documents/uncitral/en/21-07996_expedited-arbitration-e-ebook.pdf"
+    ],
+    "source_review": "UNCITRAL2021 express-consent expedited rules and procedural framework checked; national consumer enforceability expressly left jurisdiction-dependent.",
+    "notes": "Corrected inherent total confidentiality, absolute no-review and universal statutory-right waiver assertions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_02": {
+    "ID": "CON_02",
+    "sources": [
+      "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+      "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011L0083"
+    ],
+    "source_review": "EU official withdrawal guidance and Directive9–16 checked for clocks, return/refund costs and exceptions.",
+    "notes": "Corrected contract/form-receipt clock, universal zero-cost and refund withholding claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_03": {
+    "ID": "CON_03",
+    "sources": [
+      "https://eur-lex.europa.eu/EN/legal-content/summary/emergency-intervention-to-address-high-energy-prices.html",
+      "https://eur-lex.europa.eu/eli/reg/2022/1854/oj/eng"
+    ],
+    "source_review": "Official EU emergency-energy summary checked; dates/profit benchmark distinguished from retail pricing, temporary scope retained.",
+    "notes": "Replaced false universal anti-price-gouging interpretation with actual energy measures and distinct competition-law context.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_04": {
+    "ID": "CON_04",
+    "sources": [
+      "https://www.who.int/teams/nutrition-and-food-safety/standards-and-scientific-advice-on-food-and-nutrition/codex-alimentarius",
+      "https://www.fao.org/fao-who-codexalimentarius/about-codex/faq/faq-detail/en/c/454753"
+    ],
+    "source_review": "WHO/FAO science and national-law relationship checked; no specific country's adulteration penalty asserted without its law.",
+    "notes": "Removed fabricated WHO worldwide criminal protocol and automatic uniform penalties.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_05": {
+    "ID": "CON_05",
+    "sources": [
+      "https://www.bangladeshtradeportal.gov.bd/kcfinder/upload/files/Consumer%20Rights%20Protection%20Act%202009.pdf"
+    ],
+    "source_review": "Authentic English Act Section60 and adjacent61/66–67 checked; no present-day amendment audit beyond published source or individual limitation opinion claimed.",
+    "notes": "Removed imported UK1980 six-year limitation and categorical cause-date conclusions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_06": {
+    "ID": "CON_06",
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+      "https://commission.europa.eu/business-economy-euro/product-safety-and-requirements/product-safety/general-product-safety-regulation_en"
+    ],
+    "source_review": "Official GPSR applicability/replacement and recall/remedy framework checked; product-specific regime left open.",
+    "notes": "Updated outdated2001 directive framing; qualified recall triggers and differentiated economic-operator roles.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_07": {
+    "ID": "CON_07",
+    "sources": [
+      "https://www.bangladeshtradeportal.gov.bd/kcfinder/upload/files/Consumer%20Rights%20Protection%20Act%202009.pdf"
+    ],
+    "source_review": "Published authentic English Sections46/47/60 checked; no additional current amendment or case-specific conviction claim.",
+    "notes": "Corrected significant-shortage threshold and automatic sentencing implication.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_08": {
+    "ID": "CON_08",
+    "sources": [
+      "https://www.bangladeshtradeportal.gov.bd/kcfinder/upload/files/Consumer%20Rights%20Protection%20Act%202009.pdf"
+    ],
+    "source_review": "Authentic English Sections44/60/66–67 checked; penalty distinguished from compensation.",
+    "notes": "Removed automatically broad negligent/omission liability and guaranteed license/compensation consequences.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_09": {
+    "ID": "CON_09",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011L0083",
+      "https://eur-lex.europa.eu/eli/dir/1993/13/oj/eng"
+    ],
+    "source_review": "Directive2011/83 precontract-duration/termination scope checked; no universal one-month reminder inferred; current national/sector specifics not exhaustively audited.",
+    "notes": "Removed invented one-month pre-renewal reminder and universal24/7 cancellation/refund requirements.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "CON_10": {
+    "ID": "CON_10",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1678624835077&uri=CELEX%3A32016R0679",
+      "https://www.edpb.europa.eu/system/files/2022-10/edpb_guidelines_202209_personal_data_breach_notification_targetedupdate_en.pdf"
+    ],
+    "source_review": "GDPR33/34/83(4) and EDPB controller/processor/awareness guidance checked.",
+    "notes": "Corrected all-breaches clock, public-notice72-hour framing, encryption assumption and notification-only fine tier.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_a_batch_07.json"
+  },
+  "HUM_01": {
+    "ID": "HUM_01",
+    "sources": [
+      "https://spherestandards.org/wp-content/uploads/Sphere-Handbook-2018-EN.pdf",
+      "https://interactive.spherestandards.org/"
+    ],
+    "source_review": "Checked Sphere quantity, distance and queuing indicators; context-qualified planning guidance.",
+    "notes": "Removed invented 2.5 km/h derivation and categorical claim that 15 litres covers flushing toilets. Root claim-level review aligned the shared family-of-four arithmetic example, response-stage caveat, vulnerable groups and access monitoring across levels.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_02": {
+    "ID": "HUM_02",
+    "sources": [
+      "https://www.icrc.org/en/our-fundamental-principles",
+      "https://www.icrc.org/en/doc/assets/files/publications/icrc-002-1067.pdf"
+    ],
+    "source_review": "Checked impartiality, neutrality and Code of Conduct principles.",
+    "notes": "Corrected conflation of impartiality with neutrality and removed guaranteed operational access.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_03": {
+    "ID": "HUM_03",
+    "sources": [
+      "https://docs.un.org/st/SGB/2003/13",
+      "https://police.un.org/sites/default/files/fpu_guidelines_2006.pdf"
+    ],
+    "source_review": "Checked bulletin definitions, prohibitions, reporting, managerial duties and partner provisions. Included section 4.4 marriage qualification.",
+    "notes": "Removed claims bulletin mandates independent investigations, universal contractor scope and automatic prosecution. Corrected abuse definition and added specific child/sex-for-aid rules.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_04": {
+    "ID": "HUM_04",
+    "sources": [
+      "https://handbook.corehumanitarianstandard.org/en/chs/2024/"
+    ],
+    "source_review": "Checked CHS 2024 communication, participation and complaints requirements.",
+    "notes": "Removed unsupported universal budget disclosure and statutory-entitlement claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_05": {
+    "ID": "HUM_05",
+    "sources": [
+      "https://handbook.corehumanitarianstandard.org/en/chs/2024/"
+    ],
+    "source_review": "Checked CHS participation and inclusion; numerical claims absent from standard.",
+    "notes": "Corrected expansion of CHS, removed invented Social Capital Hypothesis foundation, veto right, quotas and budget mandates. Final claim-level spot review retained this practical qualification explicitly in Low.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_06": {
+    "ID": "HUM_06",
+    "sources": [
+      "https://handbook.corehumanitarianstandard.org/en/chs/2024/"
+    ],
+    "source_review": "Checked CHS do-no-harm and safeguarding obligations; examples framed as risks rather than universal facts.",
+    "notes": "Replaced vague strategic claims with assess-design-monitor-adapt actions and feedback safeguards.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_07": {
+    "ID": "HUM_07",
+    "sources": [
+      "https://www.icrc.org/en/icrc-and-data-protection",
+      "https://www.icrc.org/sites/default/files/document/file_list/annex_4_-_the_icrc_rules_on_personal_data_protection_0.pdf"
+    ],
+    "source_review": "Checked official framework and rules on purpose limitation, minimisation, retention, archiving and security.",
+    "notes": "Corrected absolute service-only retention claim and universal AES-256 mandate; did not assert unverified 2025 revision.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_08": {
+    "ID": "HUM_08",
+    "sources": [
+      "https://handbook.corehumanitarianstandard.org/en/chs/2024/"
+    ],
+    "source_review": "Checked CHS resilience/local capacity, participation and transition principles.",
+    "notes": "Corrected CHS expansion and removed categorical claims about mandatory market/private-partnership structures. Final claim-level spot review retained this practical qualification explicitly in Low.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_09": {
+    "ID": "HUM_09",
+    "sources": [
+      "https://reference.iatistandard.org/en/news/publish-to-iati-within-2-years-of-the-whs-says-grand-bargain-on-humanitarian-financing/",
+      "https://www.unhcr.org/iati-international-aid-transparency-initiative",
+      "https://interagencystandingcommittee.org/grand-bargain"
+    ],
+    "source_review": "Checked official IATI/UNHCR transparency commitments; Grand Bargain chronology and target retained as historical policy, not law. IASC direct retrieval/search was limited.",
+    "notes": "Corrected 2.0/2023 chronology and binding/real-time-tracking overclaims; target achievement not asserted.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "HUM_10": {
+    "ID": "HUM_10",
+    "sources": [
+      "https://www.oecd.org/en/publications/2010/04/transition-financing_g1ghc760.html",
+      "https://www.oecd.org/en/topics/sub-issues/investment-for-trade-and-economic-development/transition-finance-toolkit.html"
+    ],
+    "source_review": "Checked OECD flexible transition financing and coordination; no universal emergency-phase exit deadline found.",
+    "notes": "Qualified original claim that OECD requires withdrawal when emergency phase ends.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_01.json"
+  },
+  "EFA_01": {
+    "ID": "EFA_01",
+    "sources": [
+      "https://www.heart.org/en/health-topics/cardiac-arrest/emergency-treatment-of-cardiac-arrest",
+      "https://www.heart.org/-/media/07fa43d7e64e47c0be7b5131d879f5dd.pdf"
+    ],
+    "source_review": "Checked AHA compression rate/depth, recoil and arrest actions.",
+    "notes": "Removed false mechanism suggesting complete relaxation should be limited; added emergency activation and AED.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_02": {
+    "ID": "EFA_02",
+    "sources": [
+      "https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external",
+      "https://www.redcross.ai/wp-content/uploads/sites/6/2022/10/First-Aid-CPR-AED-Instructors-Manual-Updated-December-2021-compressed.pdf"
+    ],
+    "source_review": "Checked Red Cross direct pressure, tourniquet placement, tightening and trained packing guidance.",
+    "notes": "Removed dangerous wait-30-minutes assertion, incorrect lower-leg/proximal-knee description and suggestion tourniquet is definitive care.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_03": {
+    "ID": "EFA_03",
+    "sources": [
+      "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "https://111.wales.nhs.uk/encyclopaedia/b/article/burnsandscalds/"
+    ],
+    "source_review": "Checked NHS cooling, covering and escalation. Corrected erroneous WHO Annex 7 attribution.",
+    "notes": "Removed invented immediate debridement/hemostasis and mechanistic claims; first aid not surgical care.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_04": {
+    "ID": "EFA_04",
+    "sources": [
+      "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637"
+    ],
+    "source_review": "Checked Mayo first-aid steps, positioning, infants and pregnancy modifications.",
+    "notes": "Corrected dangerous facing/upright position and false suction explanations; no blind sweep.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_05": {
+    "ID": "EFA_05",
+    "sources": [
+      "https://www.stroke.org/en/about-stroke/types-of-stroke/ischemic-stroke-clots/ais-infographic",
+      "https://www.stroke.org/en/about-stroke/stroke-symptoms"
+    ],
+    "source_review": "Checked ASA recognition and current thrombolysis window; not individual eligibility advice.",
+    "notes": "Removed false DAWN/DEFUSE-3 attribution to 4.5-hour tPA window, added tenecteplase and no-wait qualification. Original Mid FK is lower than Low; targeted overlapping allowable ranges without deleting facts.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_06": {
+    "ID": "EFA_06",
+    "sources": [
+      "https://www.poison.org/first-aid-for-poisonings"
+    ],
+    "source_review": "Checked Poison Control emergency escalation, no vomiting and substance-specific advice.",
+    "notes": "Removed demand for exact dose before contact and substituted safe, non-delaying identification advice.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_07": {
+    "ID": "EFA_07",
+    "sources": [
+      "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose/symptoms-treatment",
+      "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose"
+    ],
+    "source_review": "Checked ADA 15–15, amounts, repeat threshold, snack and severe hypoglycaemia safeguards.",
+    "notes": "Corrected dangerous 30–45 mL juice dose, incorrect rejection of regular soda, 4x4g arithmetic, conscious/severe definitions and fixed-dose universalism.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_08": {
+    "ID": "EFA_08",
+    "sources": [
+      "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/heat-and-cold-illness-in-travelers.html",
+      "https://www.cdc.gov/nceh/hsb/extreme/Heat_Illness/page492.html"
+    ],
+    "source_review": "Checked CDC cooling and emergency response; approximate stopping range is for monitored responders, not delay criterion.",
+    "notes": "Removed unsupported cooling rate and dangerous lay sedative instructions; corrected blanket exclusion of ice-cold cooling.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_09": {
+    "ID": "EFA_09",
+    "sources": [
+      "https://www.epipen.com/hcp/-/media/files/crmlandingpageassets/anaphylaxissignsandsymptomsguide.pdf",
+      "https://www.epipen.com/en/prescribing-information"
+    ],
+    "source_review": "Checked manufacturer EpiPen instructions, site, 3-second hold, 10-second massage and device-specific dosing.",
+    "notes": "Corrected harmful instruction to allow bleeding/avoid site pressure, and made three-second hold brand-specific.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "EFA_10": {
+    "ID": "EFA_10",
+    "sources": [
+      "https://www.epilepsy.com/recognition/emergency-help",
+      "https://www.epilepsy.com/recognition/first-aid-resources"
+    ],
+    "source_review": "Checked Epilepsy Foundation seizure first aid and escalation criteria.",
+    "notes": "Removed 30-minute delay criterion and overly narrow tertiary-centre/diagnostic claims; included do-not-restrain/do-not-mouth safeguards.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_02.json"
+  },
+  "FIN_01": {
+    "ID": "FIN_01",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29"
+    ],
+    "source_review": "Checked SEC margin risks and distinction between initial and maintenance margin; 10x arithmetic verified directly.",
+    "notes": "Corrected automatic liquidation/zero-equity assumptions and added losses beyond deposit, no universal availability.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_02": {
+    "ID": "FIN_02",
+    "sources": [
+      "https://www.nyse.com/publicdocs/nyse/NYSE_MWCB_FAQ.pdf",
+      "https://www.nyse.com/vms7tf3"
+    ],
+    "source_review": "Checked NYSE thresholds, 15-minute halts, time-of-day and once-per-level limits.",
+    "notes": "Corrected 60-minute Level 2 halt, SEC Rule 201 attribution, outdated NASD authority and guaranteed recovery implications.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_03": {
+    "ID": "FIN_03",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/mutual-fund-and-etf-fees-and-expenses-investor-bulletin"
+    ],
+    "source_review": "Checked SEC fee definitions and prospectus dependence. No identifiable fund prospectus supplied, so 2%/365-day claim retained only as a conditional example.",
+    "notes": "Corrected front-end terminology and universal NAV fee-base assumption.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_04": {
+    "ID": "FIN_04",
+    "sources": [
+      "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki"
+    ],
+    "source_review": "Checked BIP-39 entropy, word counts, 512-bit seed and passphrase mechanics.",
+    "notes": "Corrected loss-of-phrase equals immediate total-loss claim, entropy/seed confusion and assertion that ledger funds cease to exist.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_05": {
+    "ID": "FIN_05",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-51"
+    ],
+    "source_review": "Checked SEC short-sale mechanics and uncapped loss; scenario arithmetic verified.",
+    "notes": "Corrected claims long upside is capped and forced liquidation limits short losses to deposit. Corrected 900% denominator.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_06": {
+    "ID": "FIN_06",
+    "sources": [
+      "https://www.stlouisfed.org/publications/page-one-economics/2023/01/03/adjusting-for-inflation",
+      "https://fred.stlouisfed.org/blog/2022/05/constructing-ex-ante-real-interest-rates-on-fred/"
+    ],
+    "source_review": "Checked real-return framework; compound growth figures calculated directly.",
+    "notes": "Corrected 10-year basket price, exact real returns and guaranteed inflation-hedge implications.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_07": {
+    "ID": "FIN_07",
+    "sources": [
+      "https://www.irs.gov/individuals/international-taxpayers/federal-income-tax-withholding-and-reporting-on-other-kinds-of-us-source-income-paid-to-nonresident-aliens",
+      "https://www.irs.gov/publications/p519",
+      "https://www.irs.gov/instructions/iw8ben"
+    ],
+    "source_review": "Checked IRS non-ECI dividend withholding, treaty claims and return qualifications.",
+    "notes": "Corrected effectively-connected-income treatment, W-8BEN description and blanket return-filing claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_08": {
+    "ID": "FIN_08",
+    "sources": [
+      "https://www.myfico.com/credit-education/blog/credit-utilization-be",
+      "https://www.myfico.com/credit-education/credit-scores/fico-scores-credit-limit"
+    ],
+    "source_review": "Checked FICO's explicit rejection of 30% universal threshold and amounts-owed distinction.",
+    "notes": "Corrected fabricated cliff, stable-30-to-50 claim and score-maximisation guarantees.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_09": {
+    "ID": "FIN_09",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/ponzi-schemes",
+      "https://www.investor.gov/protect-your-investments/fraud/protect-your-money"
+    ],
+    "source_review": "Checked SEC Ponzi definition/red flags; compound arithmetic verified.",
+    "notes": "Corrected false compounding sequence, mathematical-impossibility claim and certainty of 100% losses/Ponzi diagnosis.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "FIN_10": {
+    "ID": "FIN_10",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "source_review": "Checked SEC allocation and rebalancing guidance; numerical band is explicit example, not mandated rule.",
+    "notes": "Corrected absolute five-percent mandate, percentage/percentage-point ambiguity and guaranteed buy-low/sell-high benefits.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_03.json"
+  },
+  "TEC_01": {
+    "ID": "TEC_01",
+    "sources": [
+      "https://www.cpsc.gov/s3fs-public/701.pdf",
+      "https://www.cpsc.gov/s3fs-public/5032.pdf"
+    ],
+    "source_review": "Checked CPSC cord capacity, damage, placement and fire prevention guidance.",
+    "notes": "Qualified 1625W example; removed invented universal temperatures, thermal equilibrium and at-rating prohibition.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_02": {
+    "ID": "TEC_02",
+    "sources": [
+      "https://www.apple.com/batteries/maximizing-performance/"
+    ],
+    "source_review": "Checked Apple official storage instructions; product-specific rather than universal lithium chemistry mandate.",
+    "notes": "Removed fabricated exact 30-day onset, universal discharge/voltage and equilibrium claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_03": {
+    "ID": "TEC_03",
+    "sources": [
+      "https://www.iec.ch/ip-ratings",
+      "https://www.samsung.com/ch/support/mobile-devices/was-hat-es-mit-den-ip67-und-ip68-zertifizierungen-auf-sich/"
+    ],
+    "source_review": "IEC page blocked (403); checked manufacturer explanation of IEC-based IP67 tests. Full paid IEC test text not independently retrieved.",
+    "notes": "Removed unconditional orientation, immediate void-on-drop and universal IP68 depth/duration claims; acknowledged test limitations.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_04": {
+    "ID": "TEC_04",
+    "sources": [
+      "https://www.cisa.gov/sites/default/files/2024-08/Federal-Mobile-Workplace-Security_508_2024-08-14.pdf",
+      "https://www.cisa.gov/sites/default/files/publications/Wireless-Security.pdf"
+    ],
+    "source_review": "Checked CISA home wireless/password guidance; 16-character recommendation identified as contemporary advice.",
+    "notes": "Corrected 256^N/12-character guarantees and conflated admin/Wi-Fi credentials; removed unnecessary external scanning instructions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_05": {
+    "ID": "TEC_05",
+    "sources": [
+      "https://www.osha.gov/enforcement/directives/std-01-05-001"
+    ],
+    "source_review": "Checked OSHA laser classification/hazard guidance and control hierarchy; historical 5–500mW scope qualified.",
+    "notes": "Corrected false bloodborne-pathogen citation, classification generalisation and PPE/engineering-control confusion.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_06": {
+    "ID": "TEC_06",
+    "sources": [
+      "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+      "https://www.cdc.gov/niosh/docs/2015-103/pdf/2015-103.pdf"
+    ],
+    "source_review": "Checked CDC/NIOSH no-mixing guidance and fresh-air emergency response.",
+    "notes": "Removed speculative explosive byproduct description and unsafe lay re-entry/respirator/oxygen instructions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_07": {
+    "ID": "TEC_07",
+    "sources": [
+      "https://www.osha.gov/laws-regs/standardinterpretations/1999-12-21",
+      "https://www.osha.gov/laws-regs/standardinterpretations/2003-05-19",
+      "https://obis.osha.gov/dte/library/electrical/electrical.html"
+    ],
+    "source_review": "Checked OSHA grounding and double-insulated exceptions; GFCI distinction qualified by local code.",
+    "notes": "Corrected all-two-prong-dangerous claim, universal grounding mandate, guaranteed zero casing voltage and unsafe timing threshold.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_08": {
+    "ID": "TEC_08",
+    "sources": [
+      "https://www.energy.gov/energysaver/air-conditioning",
+      "https://www.energy.gov/energysaver/maintaining-your-air-conditioner"
+    ],
+    "source_review": "DOE legacy maintenance URL returned 404 in this pass. Manufacturer-dependent interval retained as qualified general guidance; universal HEPA and 15% figures not claimed verified.",
+    "notes": "Removed universal HEPA interval and fixed efficiency/energy penalty; source retrieval limitation explicitly recorded.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_09": {
+    "ID": "TEC_09",
+    "sources": [
+      "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+      "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens"
+    ],
+    "source_review": "Checked FDA microwave-safe containers, superheated-liquid and damaged-door precautions; USDA venting guidance.",
+    "notes": "Removed false implosion/exponential pressure guarantees and venting-eliminates-risk overclaim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "TEC_10": {
+    "ID": "TEC_10",
+    "sources": [
+      "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG3854en-202104-20210429093508.pdf",
+      "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/CG4010en-202407-20240715183502.pdf"
+    ],
+    "source_review": "Checked Ford model-specific owner manuals, clean-thread and recheck instructions; no universal torque asserted.",
+    "notes": "Corrected blanket 80–100 lb-ft rule and universal annual calibration/50–100-mile recheck claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_04.json"
+  },
+  "SEC_01": {
+    "ID": "SEC_01",
+    "sources": [
+      "https://www.ic3.gov/PSA/2019/PSA190610"
+    ],
+    "source_review": "Checked FBI IC3 warning about valid HTTPS phishing sites; ordinary browser certificate checks distinguished from trust.",
+    "notes": "Removed false regional-domain spoof example, certificate SAN exactitude/entropy claims and HTTPS safety implication.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_02": {
+    "ID": "SEC_02",
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc6238.html",
+      "https://pages.nist.gov/800-63-4/sp800-63b.html"
+    ],
+    "source_review": "Checked RFC step recommendations, drift tolerance and replay rejection; NIST phishing resistance distinction.",
+    "notes": "Corrected algorithm, fixed-30-second mandate and contradictory previous-step rejection assertions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_03": {
+    "ID": "SEC_03",
+    "sources": [
+      "https://www.nccoe.nist.gov/sites/default/files/2022-11/HolidayTravelTip-UsePublicWiFiSafely.pdf",
+      "https://csrc.nist.gov/pubs/sp/800/77/r1/final"
+    ],
+    "source_review": "Checked NIST public-Wi-Fi VPN/HTTPS advice and exact publication identity.",
+    "notes": "Corrected claim all public traffic plaintext, mandatory AES256, fake unsecured-network-name marker and VPN perfect security.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_04": {
+    "ID": "SEC_04",
+    "sources": [
+      "https://pages.nist.gov/800-63-4/sp800-63b.html",
+      "https://www.cisa.gov/secure-our-world/use-strong-passwords"
+    ],
+    "source_review": "Checked NIST compromise-triggered action and strong unique credentials; session caveat retained.",
+    "notes": "Corrected reuse-versus-credential-stuffing definition, email-only equals password leak assumption and password-change-only defence.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_05": {
+    "ID": "SEC_05",
+    "sources": [
+      "https://support.google.com/pixelphone/answer/6293419",
+      "https://support.apple.com/en-euro/guide/iphone/iph168c4bbd5/ios"
+    ],
+    "source_review": "Checked Android and Apple permission controls; UI variability explicitly stated.",
+    "notes": "Corrected install-grants-all claim, wrong iOS microphone Never option and battery-settings bypass suggestion. Final claim-level spot review retained this practical qualification explicitly in Low.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_06": {
+    "ID": "SEC_06",
+    "sources": [
+      "https://csrc.nist.gov/pubs/ir/8408/final",
+      "https://trezor.io/learn/security-privacy/personal-security-standards/scams-and-phishing",
+      "https://trezor.io/learn/security-privacy/personal-security-standards/security-threats-to-crypto-wallets-and-how-trezor-defends-against-them"
+    ],
+    "source_review": "Checked exact NIST report identity and manufacturer phishing/device-verification guidance. Architecture described conditionally across products.",
+    "notes": "Corrected air-gap/USB contradiction, zero key exposure guarantee, phishing immunity, universal MPC/HD/secure-element assumptions and source misattribution. Original Low FK exceeds Mid; overlapping acceptable ranges used where possible.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_07": {
+    "ID": "SEC_07",
+    "sources": [
+      "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/ransomware",
+      "https://www.cisa.gov/stopransomware/ransomware-guide",
+      "https://coveware.com/"
+    ],
+    "source_review": "Checked FBI no-payment/recovery guarantee guidance and CISA response principles. Claimed Coveware 84% statistic unverified, explicitly not endorsed.",
+    "notes": "Removed invented numerical recovery conclusion and distinguished encryption, exfiltration and recovery tasks.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_08": {
+    "ID": "SEC_08",
+    "sources": [
+      "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
+      "https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies"
+    ],
+    "source_review": "Checked browser-vendor cookie mechanics, partitioning and controls.",
+    "notes": "Removed false copied-cookie mechanics, cross-account-session-hijack claim and unsupported weekly entropy/economic tracking prevention guarantees.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_09": {
+    "ID": "SEC_09",
+    "sources": [
+      "https://www.cisa.gov/sites/default/files/2024-08/Federal-Mobile-Workplace-Security_508_2024-08-14.pdf"
+    ],
+    "source_review": "Checked CISA segmentation/guest-IoT network advice; routing and internet-egress limits qualified.",
+    "notes": "Corrected VLAN equals total containment and local isolation stops internet DDoS claims; avoided broad mandatory management access.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "SEC_10": {
+    "ID": "SEC_10",
+    "sources": [
+      "https://www.ic3.gov/CrimeInfo/BEC",
+      "https://www.ic3.gov/PSA/2015/PSA150122.pdf"
+    ],
+    "source_review": "Checked IC3 business email compromise prevention and rapid bank/reporting actions.",
+    "notes": "Clarified independent verification versus login MFA; removed invented trust-certainty claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_05.json"
+  },
+  "IMM_01": {
+    "ID": "IMM_01",
+    "sources": [
+      "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-denials.html",
+      "https://fam.state.gov/fam/09FAM/09FAM040310.html"
+    ],
+    "source_review": "Checked State Department 214(b) intent, individual ties and reapplication guidance.",
+    "notes": "Corrected statute, categorical home-ties failure and invented mandatory property/family criteria; clarified visa versus admission.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_02": {
+    "ID": "IMM_02",
+    "sources": [
+      "https://www.help.cbp.gov/s/article/Article-1238?language=en_US",
+      "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en"
+    ],
+    "source_review": "Checked CBP Six-Month Club exception and European Commission Schengen document guidance.",
+    "notes": "Corrected universal six-month claim, entry/departure inconsistency and categorical ban/deportation consequences.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_03": {
+    "ID": "IMM_03",
+    "sources": [
+      "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+      "https://fam.state.gov/fam/09fam/09fam040202.html"
+    ],
+    "source_review": "Checked State visitor guidance and FAM expense/honorarium exceptions.",
+    "notes": "Corrected absolute any-US-payment ban, foreign-pay automatic exclusion and automatic permanent sanctions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_04": {
+    "ID": "IMM_04",
+    "sources": [
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title8/html/USCODE-2024-title8-chap12-subchapII.htm",
+      "https://www.uscis.gov/laws-and-policy/other-resources/unlawful-presence-and-inadmissibility"
+    ],
+    "source_review": "Reviewed federal statutory text and official guidance identity; USCIS direct page retrieval failed. Not a personalised calculation.",
+    "notes": "Corrected illegal-entry equivalence, exactly180 threshold, departure trigger, omitted10-year bar, child-hardship waiver and depart-first-only advice.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_05": {
+    "ID": "IMM_05",
+    "sources": [
+      "https://home-affairs.ec.europa.eu/policies/schengen/border-crossing/short-stay-calculator_en",
+      "https://home-affairs.ec.europa.eu/document/download/c6b8be91-871c-4e5a-bf11-d260d4488020_en?filename=short_stay_schengen_calculator_user_manual_en.pdf"
+    ],
+    "source_review": "Checked European Commission rolling-window guidance and calculator manual.",
+    "notes": "Corrected nonsensical January/July example, false year-away no-reentry claim, broad permit exemptions and fixed-ban claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_06": {
+    "ID": "IMM_06",
+    "sources": [
+      "https://www.icao.int/icao-pkd/epassport-basics",
+      "https://www.icao.int/icao-pkd/epassport-validation",
+      "https://www.icao.int/icao-pkd/epassport-validation-roadmap-tool-system-requirements"
+    ],
+    "source_review": "Checked ICAO ePassport distinction, signatures, facial biometric and PKD role; technical format correction qualified by editions.",
+    "notes": "Corrected all-MRTD-must-have-chip claim, 19794-2 facial attribution and perfect matching guarantees. Original Low FK higher than Mid; overlap permits only a narrow Mid>Low range.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_07": {
+    "ID": "IMM_07",
+    "sources": [
+      "https://www.who.int/docs/default-source/documents/emergencies/travel-advice/extension-to-life-on-yellow-fever-vaccination-en.pdf",
+      "https://www.who.int/news-room/questions-and-answers/item/yellow-fever"
+    ],
+    "source_review": "Checked WHO Annex7 lifetime amendment, ten-day onset and prior-certificate treatment.",
+    "notes": "Corrected cannot-issue-before10days and WHO-authorised-clinician claims; added entry-specific requirements and clinical exceptions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_08": {
+    "ID": "IMM_08",
+    "sources": [
+      "https://www.hcch.net/en/instruments/conventions/full-text/?cid=41",
+      "https://www.hcch.net/en/conventions/causes/specials/apostille"
+    ],
+    "source_review": "Checked treaty scope, Competent Authorities and limited effect of certification; current count not asserted.",
+    "notes": "Corrected content/legal-validity guarantee, blanket translations coverage, outdated125 count and missing exclusions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_09": {
+    "ID": "IMM_09",
+    "sources": [
+      "https://www.iata.org/en/travel-centre/",
+      "https://www.iata.org/en/services/compliance/timatic/"
+    ],
+    "source_review": "Checked IATA personalised passport/visa/transit requirement function; no destination-specific eligibility claimed without itinerary.",
+    "notes": "Qualified visa-free interval and automatic terminal-change entry assumptions; airline database not law.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "IMM_10": {
+    "ID": "IMM_10",
+    "sources": [
+      "https://travel.state.gov/content/travel/en/us-visas/immigrate/the-immigrant-visa-process/step-5-collect-financial-evidence-and-other-supporting-documents/step-7-collect-civil-documents.html",
+      "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country.html"
+    ],
+    "source_review": "Checked State Department's full police-certificate table, arrest/US exceptions and expiry.",
+    "notes": "Corrected blanket12-month/post16 rule, missing6-month nationality/current-residence rules, arrest exception and unnecessary Apostille assumption.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_06.json"
+  },
+  "POL_01": {
+    "ID": "POL_01",
+    "sources": [
+      "https://www.edpb.europa.eu/sme/assess-the-risks/data-breaches_en",
+      "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    ],
+    "source_review": "Checked EDPB breach guidance and GDPR Article33/34 distinction; EUR-Lex direct HTML bot challenge encountered.",
+    "notes": "Qualified 72-hour feasible provision, added phased notification/processor duty and Article34 exceptions; no automatic cap application.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_02": {
+    "ID": "POL_02",
+    "sources": [
+      "https://www.indiapost.gov.in/VAS/Pages/RTI/RTI-Manual-17.aspx",
+      "https://www.indiacode.nic.in/bitstream/123456789/19794/1/rti_act_2005.pdf"
+    ],
+    "source_review": "Checked India Post official RTI guidance and Act identity; India Code PDF retrieval timed out. Statutory distinctions stated, not case-specific appeal advice.",
+    "notes": "Corrected false3day acknowledgement, complexity extension, section14 citation and automatic strict-liability fine.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_03": {
+    "ID": "POL_03",
+    "sources": [
+      "https://www.canada.ca/en/department-finance/news/2021/12/fuel-charge-rates-for-listed-provinces-and-territories-for-2023-to-2030.html",
+      "https://www.canada.ca/en/department-finance/news/2025/03/removing-the-consumer-carbon-price-effective-april-1-2025.html",
+      "https://www.canada.ca/en/environment-climate-change/services/climate-change/pricing-pollution-how-it-will-work/greenhouse-gas-annual-report-2024.html"
+    ],
+    "source_review": "Checked historical schedule and official consumer-price removal effective2025. Current industrial details not treated as universal fixed rates.",
+    "notes": "Corrected outdated consumer-tax continuation, deterrence-of-abatement reversal and guaranteed sector outcome/rebate assumptions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_04": {
+    "ID": "POL_04",
+    "sources": [
+      "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
+      "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/update-Recommendation-16-payment-transparency-june-2025.html"
+    ],
+    "source_review": "Checked FATF2025 revision and2030 implementation timing; threshold not treated as information-free exemption.",
+    "notes": "Corrected universal>$1000 data fields/API/direct-exchange/global-law claims, missing reduced requirements and timeline.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_05": {
+    "ID": "POL_05",
+    "sources": [
+      "https://www.bundeswahlleiterin.de/en/service/glossar/s/sperrklausel.html",
+      "https://www.bundeswahlleiterin.de/en/dam/jcr/4ff317c1-041f-4ba7-bbbf-1e5dc45097b3/bundeswahlgesetz_engl.pdf"
+    ],
+    "source_review": "Checked Federal Returning Officer explanation of2024 ruling/2025 operation, second votes and minority exemption.",
+    "notes": "Added dated court qualification, corrected first/second-vote ambiguity and guaranteed direct-seat claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_06": {
+    "ID": "POL_06",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019L1937"
+    ],
+    "source_review": "Checked directive text on scope,50workers,7days/3months, external reports and conditions for protection; direct HTML challenged but official PDF/search available.",
+    "notes": "Corrected10day acknowledgement, fabricated assessment/investigation timelines, blanket anonymity/public-body rules and motive-based exclusion.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_07": {
+    "ID": "POL_07",
+    "sources": [
+      "https://www.ohchr.org/sites/default/files/english/bodies/hrc/docs/gc34.pdf",
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-civil-and-political-rights"
+    ],
+    "source_review": "Checked General Comment34 and Article19/20 framework; treaty landing page403 but official comment available.",
+    "notes": "Separated opinion from expression, corrected indiscriminate insult/defamation approval and qualified necessity formula.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_08": {
+    "ID": "POL_08",
+    "sources": [
+      "https://www.electoralcommission.org.uk/guidance-candidates-and-agents-uk-parliamentary-general-elections-great-britain/candidate-spending/how-much-can-you-spend",
+      "https://www.legislation.gov.uk/uksi/2023/1235/pdfs/uksi_20231235_en.pdf"
+    ],
+    "source_review": "Checked EC exact2024 formula and worked example, corroborated statutory2023 adjustment. A separate EC press page reverses pence labels, so relied on detailed guidance/statute.",
+    "notes": "Corrected universal£30000 cap and automatic disqualification; specified election/year/geography and county/borough rates.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_09": {
+    "ID": "POL_09",
+    "sources": [
+      "https://www.unhcr.org/what-is-a-refugee",
+      "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention",
+      "https://www.unhcr.org/media/guidelines-international-protection-no-11-prima-facie-recognition-refugee-status-5-june-2015"
+    ],
+    "source_review": "Checked UNHCR definition, stateless application and prima facie guidance; non-refoulement qualification retained.",
+    "notes": "Corrected all-individual/no-group claim, uniquely-targeted test, balance-of-probabilities standard, automatic no-relocation and absolute Convention33 claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "POL_10": {
+    "ID": "POL_10",
+    "sources": [
+      "https://zoek.officielebekendmakingen.nl/trb-2004-11.html",
+      "https://www.unodc.org/documents/treaties/UNCAC/CountryVisitFinalReports/2020_11_06_Germany_Final_Country_Report.pdf",
+      "https://treaties.un.org/Pages/ViewDetails.aspx?chapter=18&clang=_en&mtdsg_no=XVIII-14&src=TREATY"
+    ],
+    "source_review": "Checked official treaty publication/UNODC review qualifications and UN depositary September2026 count. UNODC legacy treaty URL404; official state treaty publication used.",
+    "notes": "Corrected adoption month, invented separate declaration/universal public annual mandate, unqualified party count and guilt-by-discrepancy implication.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_b_batch_07.json"
+  },
+  "SCI_01": {
+    "ID": "SCI_01",
+    "sources": [
+      "https://www.nobelprize.org/prizes/medicine/2023/advanced-information/",
+      "https://www.cdc.gov/covid/vaccines/how-they-work.html",
+      "https://stacks.cdc.gov/view/cdc/119428"
+    ],
+    "source_review": "Checked Nobel scientific account and CDC mechanism summaries. No patient-specific vaccine advice or universal pharmacokinetic claim.",
+    "notes": "Corrected erroneous cytidine/OAS/PKR/TLR9 account, paper venue implication, guaranteed sterilizing protection, and unsupported half-life; preserved mechanism, immune memory, delivery, and platform implications.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_02": {
+    "ID": "SCI_02",
+    "sources": [
+      "https://doi.org/10.1126/science.1225829",
+      "https://pubmed.ncbi.nlm.nih.gov/22745249/"
+    ],
+    "source_review": "Read primary study abstract and publisher summary. Distinguished 2012 in-vitro findings from later cellular repair applications.",
+    "notes": "Corrected false protein-guide fusion, nickase requirement, unlimited targeting, and automatic knockout.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_03": {
+    "ID": "SCI_03",
+    "sources": [
+      "https://www.ibm.com/think/topics/qubit",
+      "https://learning.quantum.ibm.com/course/quantum-business-foundations/quantum-computing-fundamentals"
+    ],
+    "source_review": "Checked IBM's qubit and foundations material; independently checked 2^50 arithmetic.",
+    "notes": "Corrected parallel-readout myth, 50-qubit numerical mistake, faster-than-light implication, deterministic measurement, universal speedup, and universal cooling claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_04": {
+    "ID": "SCI_04",
+    "sources": [
+      "https://www.iter.org/faqs?thematic=68",
+      "https://www.iter.org/fusion-energy/what-will-iter-do"
+    ],
+    "source_review": "Checked ITER's temperature, energy-gain definition, thermal output target, and experimental purpose.",
+    "notes": "Corrected temperature, breakeven/ignition conflation, electricity implication, and claim that Q=10 alone ensures commercial feasibility.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_05": {
+    "ID": "SCI_05",
+    "sources": [
+      "https://neuralink.com/updates/prime-study-progress-update/",
+      "https://neuralink.com/pdfs/PRIME-Study-Brochure.pdf"
+    ],
+    "source_review": "Checked manufacturer PRIME study descriptions; treated as design and study claims, not independent proof of clinical effectiveness.",
+    "notes": "Removed invented electrode layout, neuron mapping, decoder architecture, mandatory latency, and deterministic motor-intent claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_06": {
+    "ID": "SCI_06",
+    "sources": [
+      "https://netl.doe.gov/carbon-management/carbon-capture",
+      "https://netl.doe.gov/sites/default/files/2022-09/0919-Carbon-Capture-Technology-Compendium-2022.pdf",
+      "https://www.netl.doe.gov/node/12161"
+    ],
+    "source_review": "Checked DOE/NETL solvent technology, capture targets, and regeneration requirements.",
+    "notes": "Corrected adsorption/absorption, implausible CO2 partial pressure, capture/purity conflation, and universal purification assumptions; restored corrupted explanation.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_07": {
+    "ID": "SCI_07",
+    "sources": [
+      "https://doi.org/10.1126/science.1157996",
+      "https://www.nobelprize.org/uploads/2018/06/advanced-physicsprize2010.pdf"
+    ],
+    "source_review": "Checked original elastic-property study bibliographic abstract and Nobel scientific background. Device-independent mobility and conductivity numbers omitted as not universal.",
+    "notes": "Qualified steel comparison and corrected monolayer shear-sliding failure explanation.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_08": {
+    "ID": "SCI_08",
+    "sources": [
+      "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "https://www.who.int/publications/i/item/9789241509763"
+    ],
+    "source_review": "Checked WHO resistance overview and the named 2015 action-plan framework; avoided presenting older projections as observed facts.",
+    "notes": "Removed deterministic obsolescence and inevitable sublethal-exposure claims; qualified enzyme inhibition and historical projection.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_09": {
+    "ID": "SCI_09",
+    "sources": [
+      "https://science.nasa.gov/exoplanets/whats-a-transit/",
+      "https://www.nasa.gov/reference/the-transiting-exoplanet-survey-satellite/",
+      "https://www.nasa.gov/podcasts/nasa-in-silicon-valley/doug-caldwell-talks-about-the-data-pipeline-for-the-tess-mission/"
+    ],
+    "source_review": "Checked NASA transit explanation, TESS observing sectors, and NASA discussion of the 84-ppm Earth signal. Arithmetic independently checked.",
+    "notes": "Corrected hundredfold transit-depth error, unsupported habitability confirmation, sinusoidal shape, Kepler baseline, and TESS cadence/sector confusion.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SCI_10": {
+    "ID": "SCI_10",
+    "sources": [
+      "https://arxiv.org/abs/2005.14165",
+      "https://arxiv.org/pdf/2005.14165"
+    ],
+    "source_review": "Checked original GPT-3 paper, using 175B as a specific historical example rather than a universal/current LLM specification.",
+    "notes": "Corrected unsupported architecture, MoE, positional-method, embedding-dimension, and guaranteed emergent-ability claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_01.json"
+  },
+  "SAF_01": {
+    "ID": "SAF_01",
+    "sources": [
+      "https://www.nfpa.org/news-blogs-and-articles/nfpa-journal/2024/11/15/bullish-on-lithium-ion-batteries",
+      "https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Emergency-Response/Emergency-Response-Guides/VinFast/VINFAST-VF8-FRG-JAN-09-23_FINAL.pdf?hash=8D2031D3FDC386E62082C68CC926CFC2&rev=e9fe8cc41c714cab9ceb074b1f6cb588"
+    ],
+    "source_review": "Checked NFPA incident discussion and manufacturer response guide hosted by NFPA. Not a firefighter operating procedure.",
+    "notes": "Removed fabricated NFPA standard citations, fixed water/time/temperature requirements, and water-only universal claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_02": {
+    "ID": "SAF_02",
+    "sources": [
+      "https://obis.osha.gov/dts/shib/shib031318.html",
+      "https://obis.osha.gov/Publications/OSHA3843.pdf"
+    ],
+    "source_review": "Checked OSHA gas-line emergency advice and NIOSH/OSHA methane flammability table.",
+    "notes": "Replaced unsafe switch-off/ventilation-first advice with leave-and-call-from-safety; corrected concentration/LEL confusion and phone certification claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_03": {
+    "ID": "SAF_03",
+    "sources": [
+      "https://www.tkelevator.com/media/usa_canada/downloads_1/eox-elevator-owners-guide.pdf"
+    ],
+    "source_review": "Checked manufacturer owner's guide for passenger entrapment and trained-rescue advice. Full ASME code not independently accessed; 125% not certified as universal.",
+    "notes": "Removed universal brake guarantee and implication of extra permitted load.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_04": {
+    "ID": "SAF_04",
+    "sources": [
+      "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+      "https://obis.osha.gov/Publications/HazComm_QuickCard_SafetyData.html",
+      "https://obis.osha.gov/as/opa/quicktakes/qt12172012.html"
+    ],
+    "source_review": "Checked OSHA hazard communication, SDS sections, and reported chlorine release.",
+    "notes": "Corrected invented mandatory ten-foot rule and absolute barrier protection.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_05": {
+    "ID": "SAF_05",
+    "sources": [
+      "https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/part020-1201",
+      "https://nucleus.iaea.org/sites/nss-oui/Published%20Collections/m_3761d926-c16f-4477-a63b-741a9db1c16c/m_3761d926-c16f-4477-a63b-741a9db1c16c__50_0.Html",
+      "https://www.cdc.gov/radiation-emergencies/hcp/clinical-guidance/ars.html"
+    ],
+    "source_review": "Checked NRC annual limit, IAEA five-year rule, and CDC acute-radiation guidance.",
+    "notes": "Corrected annual/career limit confusion, universal mSv-to-Gy conversion, exact LD50/30 and unsupported individual risk/treatment claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_06": {
+    "ID": "SAF_06",
+    "sources": [
+      "https://www.nerc.com/comm/RSTC_Reliability_Guidelines/SPCS%20Considerations%20for%20Power%20Plant%20and%20Transmission%20System%20Protection%20Coordination%20Technical%20Reference%20Document%20%E2%80%93%20Revision%202.pdf",
+      "https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/spiderwg/recommended_approaches_for_ufls_program_design_with_increasing_penetrations_of_ders.pdf"
+    ],
+    "source_review": "Checked NERC protection-coordination and load-shedding material. No equipment-specific setpoints prescribed.",
+    "notes": "Corrected false claim that tripping generators reduces demand, invented universal 1–2 Hz setting, and misplaced NERC/IEC scope.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_07": {
+    "ID": "SAF_07",
+    "sources": [
+      "https://ops.fhwa.dot.gov/freight/policy/rpt_congress/truck_sw_laws/app_a.htm",
+      "https://ops.fhwa.dot.gov/freight/sw/brdgcalc/calc_page.htm"
+    ],
+    "source_review": "Checked FHWA distinction between axle, gross-weight and bridge-formula limits; independently checked stated fatigue power-law arithmetic. Full AASHTO/EN provisions not certified.",
+    "notes": "Corrected gross-versus-axle confusion and quantitatively false tenfold fatigue claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_08": {
+    "ID": "SAF_08",
+    "sources": [
+      "https://www.nationalboard.org/index.aspx?ID=381&pageID=164",
+      "https://www.spiraxsarco.com/Learn-about-steam/Safety-Valves/Safety-Valve-Selection"
+    ],
+    "source_review": "Checked National Board MAWP guidance and manufacturer explanation of setting versus allowable accumulation. Supplemental fire-rule wording retained conditionally; current applicable full ASME edition must be reviewed by engineer.",
+    "notes": "Removed false explanation that 110% guarantees vessel strength and corrected set-pressure/accumulation conflation. Requires code-edition review before operational use.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_09": {
+    "ID": "SAF_09",
+    "sources": [
+      "https://pages.nist.gov/800-63-4/sp800-63b.html"
+    ],
+    "source_review": "Checked current NIST password rules and distinction between online throttling, activation secrets, and offline guessing; entropy arithmetic independently checked.",
+    "notes": "Corrected invented mandatory 128-bit password standard and universal sub-second PIN-cracking claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SAF_10": {
+    "ID": "SAF_10",
+    "sources": [
+      "https://www.faa.gov/sites/faa.gov/files/pilots/FAA-H-8083-15B.pdf",
+      "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2015.pdf",
+      "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean"
+    ],
+    "source_review": "Checked FAA blockage effects and BEA accident account. No substitute cockpit procedure provided.",
+    "notes": "Corrected fabricated Avianca account, wrong investigating authority, stall physics, blockage behavior, and unsafe generic control advice.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_02.json"
+  },
+  "SOC_01": {
+    "ID": "SOC_01",
+    "sources": [
+      "https://www.pewresearch.org/short-reads/2025/03/04/gender-pay-gap-in-us-has-narrowed-slightly-over-2-decades/"
+    ],
+    "source_review": "Checked Pew 2024 hourly-pay measure and discussion of contributing factors. Did not infer a same-job causal effect from the aggregate ratio.",
+    "notes": "Separated incompatible pay measures and removed deterministic causal claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_02": {
+    "ID": "SOC_02",
+    "sources": [
+      "https://www.unhcr.org/global-trends-report-2024",
+      "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention"
+    ],
+    "source_review": "Checked UNHCR historical displacement totals, hosting share, and treaty framework.",
+    "notes": "Corrected denial of global refugee treaty and displaced/refugee category confusion; removed unsupported universal economic-burden claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_03": {
+    "ID": "SOC_03",
+    "sources": [
+      "https://www.who.int/publications/i/item/9789240049338",
+      "https://www.who.int/news-room/events/detail/2022/10/10/default-calendar/world-mental-health-day-2022---make-mental-health-and-well-being-for-all-a-global-priority"
+    ],
+    "source_review": "Checked WHO 2022 report and dated prevalence statement. No clinical advice specific to an individual.",
+    "notes": "Corrected prevalence denominator and removed fabricated uniform treatment rate, poverty syndrome, and placebo-care generalization.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_04": {
+    "ID": "SOC_04",
+    "sources": [
+      "https://www.itu.int/en/mediacentre/Pages/PR-2024-11-27-facts-and-figures.aspx",
+      "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+    ],
+    "source_review": "Checked ITU 2024 use estimates; retained year and use/coverage distinction. Intervention implications are explanatory, not causal estimates.",
+    "notes": "Removed unsupported binary cultural stereotypes and corrected SDG 8 definition.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_05": {
+    "ID": "SOC_05",
+    "sources": [
+      "https://www.wfp.org/news/acute-food-insecurity-and-malnutrition-rose-sixth-consecutive-year-worlds-most-fragile-regions",
+      "https://www.fsinplatform.org/report/global-report-food-crises-2024/"
+    ],
+    "source_review": "Checked WFP release on GRFC 2025 and report-year distinction; framed as historical crisis assessments, not latest global prevalence.",
+    "notes": "Corrected publication/reference-year confusion and acute-versus-chronic hunger scope.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_06": {
+    "ID": "SOC_06",
+    "sources": [
+      "https://www.who.int/publications/i/item/9789240054608/",
+      "https://www.who.int/publications-detail-redirect/9789241516198"
+    ],
+    "source_review": "Checked WHO exposure review and drinking-water review. Distinguishes hazard hypotheses from established human outcomes.",
+    "notes": "Removed unsupported intake count, universal PM2.5 classification, fixed source fraction, and asserted clinical effects.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_07": {
+    "ID": "SOC_07",
+    "sources": [
+      "https://www.epa.gov/heatislands/what-are-heat-islands",
+      "https://www.epa.gov/sites/default/files/2017-05/documents/reducing_urban_heat_islands_ch_1.pdf"
+    ],
+    "source_review": "Checked EPA's air/surface distinctions, Fahrenheit ranges, mechanisms, and mitigation framework.",
+    "notes": "Corrected Fahrenheit/Celsius conflation and latent-heat explanation; qualified context-dependent temperature differences.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_08": {
+    "ID": "SOC_08",
+    "sources": [
+      "https://www.ilo.org/publications/major-publications/global-estimates-modern-slavery-forced-labour-and-forced-marriage",
+      "https://www.ilo.org/topics/forced-labour-modern-slavery-and-human-trafficking/data-and-research-forced-labour"
+    ],
+    "source_review": "Checked 2022 publication covering 2021 and ILO forced-labour child count.",
+    "notes": "Corrected observation year, absurd population percentage, child percentage, and conflation of all exploitation categories.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_09": {
+    "ID": "SOC_09",
+    "sources": [
+      "https://www.oxfam.org.uk/media/press-releases/worlds-top-1-own-more-wealth-than-95-per-cent-of-humanity/",
+      "https://wir2022.wid.world/category/chapter-1/",
+      "https://wir2022.wid.world/executive-summary/"
+    ],
+    "source_review": "Checked directly published Oxfam and World Inequality Lab statistics with named dates and asset concepts. Did not invent a 2026 estimate.",
+    "notes": "Corrected financial-assets/total-wealth conflation and reversed poor-household consumption claim; removed unsupported universal causal conclusions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "SOC_10": {
+    "ID": "SOC_10",
+    "sources": [
+      "https://www.nist.gov/itl/ai-risk-management-framework",
+      "https://www.eeoc.gov/eeoc-disability-related-resources/artificial-intelligence-and-ada"
+    ],
+    "source_review": "Checked NIST risk framework and EEOC AI/disability guidance; no verifiable named resume-format case supplied by original.",
+    "notes": "Removed invented case details and deterministic model mechanism; preserved concrete parsing/bias risk with accountability and remedies.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_03.json"
+  },
+  "HOU_01": {
+    "ID": "HOU_01",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-48/section-16321.html",
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30648.html",
+      "https://www.ohchr.org/Documents/Publications/FS25.Rev.1.pdf"
+    ],
+    "source_review": "Checked Bangladesh section 106 directly, rent-control possession protection, and OHCHR eviction standards.",
+    "notes": "Corrected manufacturing/commercial classification, omitted contractual defaults and tenancy-end timing, and notice/eviction conflation.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_02": {
+    "ID": "HOU_02",
+    "sources": [
+      "https://www.gov.uk/tenancy-deposit-protection/overview",
+      "https://www.gov.uk/guidance/tenant-fees-act-2019-guidance-for-tenants",
+      "https://bdlaws.minlaw.gov.bd/act-print-748.html"
+    ],
+    "source_review": "Checked UK example and Bangladesh deposit/advance restrictions. No substantiated named UN-Habitat universal refund instrument found.",
+    "notes": "Removed invented worldwide deadline, interest, damages entitlement, and deposit-only-for-damage claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_03": {
+    "ID": "HOU_03",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30651.html"
+    ],
+    "source_review": "Read all eight subsections directly in official Bangla. Special subsection (5) flagged for case-specific application rather than oversimplified as unlimited urgent recovery.",
+    "notes": "Added missing thirty-day/permission and seventy-two-hour/Controller-copy procedures; corrected universal discretionary cap override.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_04": {
+    "ID": "HOU_04",
+    "sources": [
+      "https://www.ohchr.org/Documents/Publications/FS25.Rev.1.pdf",
+      "https://bdlaws.minlaw.gov.bd/act-print-748.html"
+    ],
+    "source_review": "Checked OHCHR forced-eviction account and Bangladesh section 24 with conditions. No universal damages or automatic invalidation inferred.",
+    "notes": "Qualified domestic remedies, exceptions and penalty scope; removed claim that all subsequent proceedings automatically fail.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_05": {
+    "ID": "HOU_05",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30637.html",
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30645.html",
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30646.html"
+    ],
+    "source_review": "Checked sections 7–9, 15–16 in Bangladesh official Act. Unsupported original cap/notice replaced rather than fabricated.",
+    "notes": "Corrected invented 10% biennial/three-month notice mandate and preserved true two-year redetermination distinction.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_06": {
+    "ID": "HOU_06",
+    "sources": [
+      "https://www.gov.uk/private-renting/your-rights-and-responsibilities",
+      "https://bdlaws.minlaw.gov.bd/act-48/section-16323.html",
+      "https://bdlaws.minlaw.gov.bd/act-print-748.html"
+    ],
+    "source_review": "Checked UK example, Bangladesh section 108(m), and distinct Controller inspection provision.",
+    "notes": "Corrected universal notice rule and separated private access from official inspection.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_07": {
+    "ID": "HOU_07",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30643.html"
+    ],
+    "source_review": "Read official section 13 including immediate issue and counterfoil. Additional recordkeeping is practical advice, not invented statutory form fields.",
+    "notes": "Removed absolute paper-only and automatic burden-shifting claims; added counterfoil.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_08": {
+    "ID": "HOU_08",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30648.html",
+      "https://bdlaws.minlaw.gov.bd/act-48/section-16323.html"
+    ],
+    "source_review": "Read Bangladesh section 18(1)(b) and 18(3), with general transfer obligations under section 108.",
+    "notes": "Corrected section number, partial-subletting exemption, and automatic total loss of subtenant rights.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_09": {
+    "ID": "HOU_09",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30645.html",
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30646.html",
+      "https://bdlaws.minlaw.gov.bd/act-748/section-30637.html"
+    ],
+    "source_review": "Read official sections 7, 15, 16. Corrected statutory valuation and effective date rather than generic market-rent assumptions.",
+    "notes": "Replaced invented five-year method and no-retroactivity claim with actual formula and application-linked effective date.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "HOU_10": {
+    "ID": "HOU_10",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-48/section-16323.html"
+    ],
+    "source_review": "Checked Bangladesh section 108(p); local building approval and insurance effects explicitly left subject to jurisdiction and policy rather than asserted universally.",
+    "notes": "Corrected absolute dual-approval, invalid retrospective approval, universal full-liability, and automatic insurance-voidance claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_04.json"
+  },
+  "FRG_01": {
+    "ID": "FRG_01",
+    "sources": [
+      "https://www.bis.org/committees/bcbs/basel-framework/standard/rbc?allChapters=true",
+      "https://www.bis.org/committees/bcbs/basel-framework"
+    ],
+    "source_review": "Checked BIS minimum ratios, buffers, distribution constraints, and leverage denominator.",
+    "notes": "Corrected automatic sanction characterization, missing Tier 1 minimum, and on-balance-sheet-only leverage definition.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "FRG_02": {
+    "ID": "FRG_02",
+    "sources": [
+      "https://usc-cdn.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title15-section78ff",
+      "https://www.justice.gov/usao-sdca/pr/qualcomm-sales-director-admits-insider-trading",
+      "https://www.sec.gov/Archives/edgar/data/0001782170/000178217025000081/a2024annualreportforir1.pdf"
+    ],
+    "source_review": "Checked official statute and DOJ maximum-penalty example; SEC-hosted issuer policy used only as supplemental summary of three-times civil penalty.",
+    "notes": "Corrected overbroad possession liability, invented civil cap, and 1984 Act characterization.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "FRG_03": {
+    "ID": "FRG_03",
+    "sources": [
+      "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "https://www.fdic.gov/resources/deposit-insurance/brochures/insured-deposits",
+      "https://finance.ec.europa.eu/banking/banking-regulation/deposit-guarantee-schemes_en"
+    ],
+    "source_review": "Checked FDIC ownership aggregation, product exclusions, and EU standard limit; special balances left subject to applicable national/implementation rules.",
+    "notes": "Corrected arbitrary national higher-limit claim and guarantee that insurance eliminates bank runs.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "FRG_04": {
+    "ID": "FRG_04",
+    "sources": [
+      "https://www.fincen.gov/resources/frequently-asked-questions-regarding-fincen-currency-transaction-report-ctr",
+      "https://www.fincen.gov/resources/answers-frequently-asked-bank-secrecy-act-bsa-questions",
+      "https://www.fincen.gov/sites/default/files/shared/FinCEN%20SAR%20ElectronicFilingInstructions-%20Stand%20Alone%20doc.pdf"
+    ],
+    "source_review": "Checked FinCEN CTR aggregation and SAR filing categories; no evasion tactics supplied.",
+    "notes": "Corrected over-versus-at-least threshold, erroneous regulation citation, and universal zero-threshold mandatory SAR claim.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "FRG_05": {
+    "ID": "FRG_05",
+    "sources": [
+      "https://www.consumerfinance.gov/ask-cfpb/am-i-responsible-for-unauthorized-charges-if-my-credit-cards-are-lost-or-stolen-en-29/",
+      "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
+    ],
+    "source_review": "Checked CFPB credit-card-specific liability and billing-dispute guidance; distinguished debit rules.",
+    "notes": "Added number-only theft protection and distinction between report procedures, zero-liability policies, and billing-error deadlines.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "IPM_01": {
+    "ID": "IPM_01",
+    "sources": [
+      "https://www.wto.org/english/res_e/publications_e/ai17_e/trips_art33_jur.pdf",
+      "https://www.wipo.int/en/web/treaties/ip/plt/index",
+      "https://www.uspto.gov/web/offices/pac/mpep/s2701.html"
+    ],
+    "source_review": "Checked TRIPS minimum, WIPO PLT scope, and USPTO filing-chain/foreign-priority distinction.",
+    "notes": "Corrected earliest-worldwide filing, invented Latin doctrine, mutual recognition, and post-expiry administrative-right claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "IPM_02": {
+    "ID": "IPM_02",
+    "sources": [
+      "https://www.copyright.gov/fair-use/more-info.html",
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title17/html/USCODE-2024-title17-chap1-sec107.htm"
+    ],
+    "source_review": "Checked Copyright Office guidance and statutory four factors, including unpublished-work proviso.",
+    "notes": "Corrected reversed unpublished-work treatment and automatic transformative/educational assumptions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "IPM_03": {
+    "ID": "IPM_03",
+    "sources": [
+      "https://hudoc.echr.coe.int/eng?i=001-57974",
+      "https://hudoc.echr.coe.int/?i=001-100448",
+      "https://www.echr.coe.int/documents/d/echr/fs_journalistic_sources_eng"
+    ],
+    "source_review": "Checked ECtHR Goodwin, Sanoma, and source-protection factsheet; territorial framework explicit.",
+    "notes": "Removed blanket constitutional/global guarantee and automatic exception examples; added independent review and indirect identification.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "IPM_04": {
+    "ID": "IPM_04",
+    "sources": [
+      "https://www.govinfo.gov/content/pkg/USCODE-2017-title15/html/USCODE-2017-title15-chap22-subchapI-sec1064.htm",
+      "https://www.uspto.gov/trademarks/basics/strong-trademarks"
+    ],
+    "source_review": "Checked statutory primary-significance test and USPTO descriptive/generic distinctions. Historical examples qualified; unsupported current brand-status claims removed.",
+    "notes": "Corrected reversed acquired-distinctiveness reasoning and invented cross-country brand-loss claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "IPM_05": {
+    "ID": "IPM_05",
+    "sources": [
+      "https://www.legifrance.gouv.fr/loda/id/LEGIARTI000006419657/1881-07-29/"
+    ],
+    "source_review": "Official Legifrance index identifies law/Article13, but full current article fetch was blocked (403). Specific deadlines and length figures deliberately not certified; current-text legal review required.",
+    "notes": "Corrected defamation-only framing, universal equal-space entitlement, and automatic enforcement claim. Source access limitation explicitly recorded.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_05.json"
+  },
+  "HEA_01": {
+    "ID": "HEA_01",
+    "sources": [
+      "https://www.gmc-uk.org/professional-standards/the-professional-standards/decision-making-and-consent",
+      "https://www.nhs.uk/tests-and-treatments/consent-to-treatment/",
+      "https://www.who.int/publications/i/item/9789240093249"
+    ],
+    "source_review": "Checked GMC, NHS, and WHO rights framework; legal implications explicitly jurisdiction-specific.",
+    "notes": "Removed consent-as-commercial-contract assertion and absolute risk disclosure; added patient-specific materiality, communication support, withdrawal, and capacity exceptions.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_02": {
+    "ID": "HEA_02",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679"
+    ],
+    "source_review": "Checked GDPR Articles5,6,9,32–34,82–84. Security examples distinguished from algorithm-specific mandate.",
+    "notes": "Corrected mandatory AES-256/quantum-invulnerability claims, automatic damages/fines, and encryption-only conception of privacy.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_03": {
+    "ID": "HEA_03",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679"
+    ],
+    "source_review": "Checked GDPR access, deadline/extension, copy, third-party-rights, and portability provisions.",
+    "notes": "Corrected immediate unconditional access and missing two-month extension; separated access from portability.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_04": {
+    "ID": "HEA_04",
+    "sources": [
+      "https://www.who.int/about/governance/constitution",
+      "https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act"
+    ],
+    "source_review": "Checked WHO constitutional principle and CMS EMTALA scope; did not invent a Bangladesh-specific offence or universal free-care entitlement.",
+    "notes": "Corrected WHO Constitution/direct statutory duty conflation and stabilization-versus-all-treatment scope.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_05": {
+    "ID": "HEA_05",
+    "sources": [
+      "https://www.ncbi.nlm.nih.gov/nlmcatalog/100947846",
+      "https://www.who.int/europe/publications/i/item/1997--8073",
+      "https://www.gmc-uk.org/professional-standards/the-professional-standards/decision-making-and-consent"
+    ],
+    "source_review": "Verified identity/scope of regional 1994 declaration and current shared-decision guidance. No universal entitlement to free consultation asserted.",
+    "notes": "Corrected consent-as-certainty and universal free/no-interruption legal claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_06": {
+    "ID": "HEA_06",
+    "sources": [
+      "https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency",
+      "https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency/consumers",
+      "https://www.cms.gov/files/document/hospital-price-transparency-frequently-asked-questions.pdf"
+    ],
+    "source_review": "Checked CMS transparency framework and consumer guidance; did not substitute US rules for unnamed global policy.",
+    "notes": "Corrected invented worldwide 24/7 physical/digital mandate and guaranteed precise financial predictability.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_07": {
+    "ID": "HEA_07",
+    "sources": [
+      "https://www.who.int/transplantation/Guiding_PrinciplesTransplantation_WHA63.22en.pdf",
+      "https://apps.who.int/gb/ebwha/pdf_files/wha63-rec1/wha63_rec1-en.pdf"
+    ],
+    "source_review": "Read WHO 2010 consent principles and commentary recognizing opt-in/opt-out systems and family variation.",
+    "notes": "Corrected universal express-consent requirement, fixed family hierarchy, and single-decision-maker guarantee.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_08": {
+    "ID": "HEA_08",
+    "sources": [
+      "https://www.legislation.gov.uk/ukpga/1980/58/section/11",
+      "https://www.legislation.gov.uk/ukpga/1980/58/section/33",
+      "https://www.indiacode.nic.in/bitstream/123456789/15256/1/a2019-35.pdf"
+    ],
+    "source_review": "Checked England/Wales statutory period and discretion, and India section69 late-filing provision. No US state-specific advice claimed without state facts.",
+    "notes": "Corrected UK-wide scope, discovery-rule wording, unsupported universal US repose period, and automatic absolute extinguishment.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_09": {
+    "ID": "HEA_09",
+    "sources": [
+      "https://www.unfpa.org/sites/default/files/event-pdf/PoA_en.pdf",
+      "https://www.unfpa.org/icpd",
+      "https://www.gmc-uk.org/professional-standards/the-professional-standards/decision-making-and-consent"
+    ],
+    "source_review": "Checked UNFPA Cairo instrument and informed-consent principles; domestic service law not generalized.",
+    "notes": "Corrected Cairo/Beijing conflation, fabricated repeated quote, and blanket legal claims for all ages/capacity and services.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "HEA_10": {
+    "ID": "HEA_10",
+    "sources": [
+      "https://unesdoc.unesco.org/ark:/48223/pf0000146180",
+      "https://www.nhs.uk/tests-and-treatments/end-of-life-care/planning-ahead/advance-decision-to-refuse-treatment/",
+      "https://www.nhs.uk/social-care-and-support/making-decisions-for-someone-else/mental-capacity-act/"
+    ],
+    "source_review": "Checked UNESCO article headings and NHS England/Wales legal explanation; no universal directive enforceability asserted.",
+    "notes": "Corrected fabricated UNESCO Articles10/11, unconditional legal supremacy, and conflation of care preferences with binding refusals.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_06.json"
+  },
+  "EDU_01": {
+    "ID": "EDU_01",
+    "sources": [
+      "https://www.unesco.org/en/recommendation-science",
+      "https://unesco.org.uk/site/assets/files/10070/recommendation_on_science_and_scientific_researchers.pdf"
+    ],
+    "source_review": "Checked UNESCO recommendation scope; no institution-specific sanctions asserted. Recordkeeping and procedure recommendations identified as practical safeguards.",
+    "notes": "Corrected fabricated mandatory sanctions and confusion between academic credit and copyright permission.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_02": {
+    "ID": "EDU_02",
+    "sources": [
+      "https://www.unesco.org/en/legal-affairs/convention-against-discrimination-education"
+    ],
+    "source_review": "Read Convention Article3(c) and scope. Domestic approved rates not supplied by original and not invented.",
+    "notes": "Corrected universal price-control claim and distinguished nondiscrimination from identical fees for all circumstances.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_03": {
+    "ID": "EDU_03",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679"
+    ],
+    "source_review": "Checked GDPR principles, bases, processors, rights, transfers and assessment rules. Did not assert an absolute commercial-supplier ban.",
+    "notes": "Corrected absolute commercial sharing prohibition, every-purpose-violation claim, and universal transfer-clause requirement.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_04": {
+    "ID": "EDU_04",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-367/act-part-print-200.html"
+    ],
+    "source_review": "Read Constitution Articles27–29 directly; remedies and penalties left to applicable procedures.",
+    "notes": "Corrected article content and fabricated automatic license revocation.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_05": {
+    "ID": "EDU_05",
+    "sources": [
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child",
+      "https://www.ohchr.org/en/treaty-bodies/crc/general-comments"
+    ],
+    "source_review": "Checked CRC Articles19,28(2) and Committee general-comment identities. Domestic reporting authorities left jurisdiction-specific.",
+    "notes": "Corrected General Comment misidentification and avoided unsupported exact psychological-outcome claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_06": {
+    "ID": "EDU_06",
+    "sources": [
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities",
+      "https://documents.un.org/doc/undoc/gen/g16/263/00/pdf/g1626300.pdf?fe=true",
+      "https://www.indiacode.nic.in/bitstream/123456789/2155/1/a2016-49.pdf"
+    ],
+    "source_review": "Checked CRPD Articles2,5,24 and General Comment4. Indian5%example checked against 2016 Act provision, not presumed global quota.",
+    "notes": "Corrected quota/accommodation conflation, CRPD burden wording, and Indian quota percentage.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_07": {
+    "ID": "EDU_07",
+    "sources": [
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-economic-social-and-cultural-rights",
+      "https://bdlaws.minlaw.gov.bd/act-print-349.html"
+    ],
+    "source_review": "Read ICESCR13 and example Bangladesh education-board power over transfer conditions. No invented universal transfer/certificate rule.",
+    "notes": "Corrected treaty attribution of unconditional transfer, automatic credit recognition, and immediate document entitlement.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_08": {
+    "ID": "EDU_08",
+    "sources": [
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-economic-social-and-cultural-rights",
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities"
+    ],
+    "source_review": "Checked education and accommodation treaty principles. Specific exam procedures framed as policy-dependent rather than invented treaty clauses.",
+    "notes": "Corrected claims that ICESCR directly mandates every rubric/feedback/appeal format; retained practical fairness safeguards.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_09": {
+    "ID": "EDU_09",
+    "sources": [
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women",
+      "https://www.supremecourt.gov.bd/resources/documents/276907_Writ_Petition_5916_08.pdf"
+    ],
+    "source_review": "Checked CEDAW Article10 and Bangladesh High Court primary judgment committee clauses. Local 2026 amendments or superseding instruments require separate case-specific confirmation.",
+    "notes": "Corrected invented treaty paragraph, wrong general recommendation, and universal committee/judicial-power claims.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  },
+  "EDU_10": {
+    "ID": "EDU_10",
+    "sources": [
+      "https://bdlaws.minlaw.gov.bd/act-367/section-24565.html",
+      "https://bdlaws.minlaw.gov.bd/act-print-367/section-print-24556.html",
+      "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-economic-social-and-cultural-rights"
+    ],
+    "source_review": "Checked Bangladesh Articles17 and8(2) plus ICESCR13; no invented compulsory-school ages or parent penalties.",
+    "notes": "Corrected Article25 citation and direct-enforceability claim; separated constitutional policy from implementing statute.",
+    "batch_file": "newly_generated_answers/manual_full_set/author_c_batch_07.json"
+  }
+}

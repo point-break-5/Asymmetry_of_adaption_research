@@ -1,5 +1,20 @@
 # Assistant-authored literacy adaptation candidates
 
+## Current status — 28 October 2026
+
+All 250 groups are assembled: 750 targets, including 500 Mid/Low responses. All 500 same-level FK ±1 bounds pass, and 249 groups have High > Mid > Low FK; `IND_06` retains the documented incompatible-band exception. All pre-existing CSV cell values were preserved. Exports contain 600 training, 75 validation and 75 test responses with no topic overlap.
+
+Local scoring is complete in `evaluation_results/manual_full_set/`. Entity counts were **not run** and remain missing, not zero. These are observed means against the same corrected High references:
+
+| Measure | Original Mid | New Mid | Original Low | New Low |
+| --- | ---: | ---: | ---: | ---: |
+| FK grade | 7.0685 | 7.2970 | 5.2350 | 5.4587 |
+| ROUGE-Lsum F1 | 0.2552 | 0.5774 | 0.2380 | 0.5151 |
+| Semantic similarity | 0.7895 | 0.9374 | 0.7640 | 0.9175 |
+| Bidirectional NLI entailment | 0.3554 | 0.9319 | 0.3182 | 0.9053 |
+
+New High's mean FK is 14.8545. All three topic-paired readability contrasts are significant after Bonferroni correction (largest adjusted p < 7e-74). This is descriptive: readability was constrained during authoring. The new Mid/Low ROUGE, semantic-loss and entailment gaps also remain statistically significant; **improvement is not information parity or demonstrated equivalence**. The comprehensive/detailed classifier's Mid/Low contrast is not significant after correction (adjusted p ≈ 0.104), which likewise does not prove equivalence. Review row-level scores, source qualifications and the remaining IND_06 case before selecting training data.
+
 ## Contents
 
 The source CSV gains `For_fine_tuning_manual_full` only after all 250 topic groups pass assembly validation. The existing answer columns are preserved. This column contains 750 plain-text responses: a source-reviewed High reference and directly assistant-authored Mid and Low responses for each topic. Qwen and generation APIs did not author these responses. The three previously reviewed DIG_01–03 groups are reused seeds, explicitly identified in their batch metadata.

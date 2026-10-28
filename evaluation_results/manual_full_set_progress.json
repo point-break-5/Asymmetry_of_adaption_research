@@ -1,0 +1,46 @@
+{
+  "column": "For_fine_tuning_manual_full",
+  "authoring": "Direct assistant-authored batches; no Qwen generation",
+  "complete": true,
+  "groups_authored": 250,
+  "responses_authored": 750,
+  "pending_topics": [],
+  "readability_rule": "Mid/Low within original same-level cleaned FK +/-1",
+  "known_feasibility_exception": "IND_06: cannot also impose Low<Mid within both original bounds",
+  "statistics": [
+    {
+      "contrast": "High Literacy > Mid Literacy",
+      "n": 250,
+      "mean_difference": 7.557514437798485,
+      "t": 67.78216202207638,
+      "p_one_sided": 8.691668664137787e-163,
+      "p_Bonferroni": 2.607500599241336e-162,
+      "Cohen_d_paired": 4.286920334406513
+    },
+    {
+      "contrast": "High Literacy > Low Literacy",
+      "n": 250,
+      "mean_difference": 9.395832345821779,
+      "t": 82.1335882541224,
+      "p_one_sided": 1.1521221933545302e-182,
+      "p_Bonferroni": 3.4563665800635903e-182,
+      "Cohen_d_paired": 5.194584225709585
+    },
+    {
+      "contrast": "Mid Literacy > Low Literacy",
+      "n": 250,
+      "mean_difference": 1.8383179080232936,
+      "t": 26.395937746931832,
+      "p_one_sided": 2.0465716141481063e-74,
+      "p_Bonferroni": 6.1397148424443184e-74,
+      "Cohen_d_paired": 1.6694256851263558
+    }
+  ],
+  "candidate_exports": "newly_generated_answers/manual_full_set_exports",
+  "split_topics": {
+    "train": 200,
+    "validation": 25,
+    "test": 25
+  },
+  "training_status": "Candidates only; no fine-tuning run or model-quality claim"
+}

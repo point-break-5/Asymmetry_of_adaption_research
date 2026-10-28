@@ -1,7 +1,8 @@
 """Evaluate assistant-authored answers against a matched, corrected High reference.
 
-This runs scoring models only. It never generates or edits answer text and does
-not call a paid API. Missing paper entity extractions stay explicitly missing.
+This runs scoring models only. It never generates or edits answer text. Paid
+entity extraction is disabled unless --run-entity-api is explicitly supplied.
+Missing paper entity extractions stay explicitly missing.
 """
 from pathlib import Path
 import argparse
@@ -42,6 +43,13 @@ def main():
     batches = list((ROOT / "newly_generated_answers/manual_full_set").glob("*.json"))
     groups = [g for path in batches for g in json.loads(path.read_text())["groups"]]
     assert len(groups) == 250 and len({g["ID"] for g in groups}) == 250
+    authored = {group["ID"]: group for group in groups}
+    assert set(authored) == set(frame.ID), "Batch topic IDs do not match the source CSV"
+    for row in frame.itertuples():
+        level = row.Literacy_Level.split()[0].lower()
+        assert getattr(row, COLUMN) == authored[row.ID][level].strip(), (
+            f"CSV differs from the current authored batch for {row.prompt_uid}; rerun assembly first"
+        )
 
     frame[BASELINE] = frame.Answer_only_cleaned
     high = frame.Literacy_Level.eq("High Literacy")

@@ -1,0 +1,19 @@
+{
+  "complete_dataset": true,
+  "rows": 750,
+  "topics": 250,
+  "manual_column": "For_fine_tuning_manual_full",
+  "baseline": "Original_lower_with_corrected_High",
+  "baseline_definition": "Original Answer_only_cleaned Mid/Low, identical corrected High for both conditions",
+  "entity_API_requested": false,
+  "cpu_only": false,
+  "entity_status": "See row statuses; missing values are not zero and are not replaced by regex proxies",
+  "limitations": [
+    "Readability constrained during authoring; significance is descriptive, not independent confirmation of comprehension",
+    "Overlap, embeddings, NLI and posture are model-based proxies, not guarantees of factual or proposition completeness",
+    "Non-significant differences do not establish equivalence; no equivalence margin was prospectively specified",
+    "IND_06 original grade bands are incompatible with within-topic Low<Mid; retain the declared +/-1 bounds",
+    "Source access/version limitations remain in each authoring batch; no blanket expert verification claimed",
+    "No Qwen fine-tuning or post-training model evaluation has been performed"
+  ]
+}

@@ -1,14 +1,28 @@
 # Project handoff: literacy-adaptive Qwen fine-tuning data
 
-Last checked: **17 October 2026, Asia/Dhaka**.
+Last checked: **28 October 2026, Asia/Dhaka**.
 
 This is a portable operational handoff for another assistant (Claude, Gemini, Codex, etc.). It records the user's goals, decisions, files, actual progress, limitations and next steps. It is not a transcript, hidden reasoning, or a claim that unfinished work is complete. Repository files and a fresh validation run take precedence over this snapshot.
 
-## 1. Current instruction: pause before continuing
+## 1. Current state: generation and local evaluation completed
 
-The latest user request is to create this `codex.md` context file, commit it and push it. **Do not continue generating/revising the dataset merely as part of this handoff.** Resume the underlying task only when the user asks to continue.
+The user resumed the saved task on 28 October 2026. All 250 groups are now assembled into the main CSV's `For_fine_tuning_manual_full` column, all 500 Mid/Low FK ±1 bounds pass, and local scoring is complete. No model training was run. Entity extraction remains unrun/missing. No new commit or push was requested for this continuation; current output changes are local. The older 17 October snapshot in Section 7 is retained as history, not the current to-do list.
 
-The underlying unfinished request is to regenerate responses for **all 250 topic groups** directly with the assistant, not Qwen. Each group has High, Mid and Low answers: 750 targets in total, including 500 Mid/Low rewrites. High may be corrected against authoritative sources where necessary. Preserve the existing CSV answer columns; assemble the new set into its own column.
+Current artifacts:
+
+- `evaluation_results/manual_full_set_readability_audit.csv`: all 750 targets checked; all 500 Mid/Low bounds pass.
+- `evaluation_results/manual_full_set_progress.json`: complete, no pending topics, paired readability tests and candidate-export location.
+- `evaluation_results/manual_full_set/assistant_authored_metrics.csv` and `matched_original_metrics.csv`: 750 rows each; all local metrics complete, entity counts missing.
+- The same directory contains `summary_by_level.csv`, `paired_before_after_changes.csv`, `paper_paired_contrasts.csv`, `paper_baseline_tests.csv`, `paper_repeated_measures_anova.csv`, `evaluated_text_fingerprints.csv` and `evaluation_metadata.json`.
+- `newly_generated_answers/manual_full_set_exports/`: all/train/validation/test JSONL (750/600/75/75 responses), topic split manifest, source provenance and updated README.
+
+The remaining CRI_10 Low sentence revision and all consumer-rights readability revisions are finished. High references and source metadata were unchanged by these final readability edits. The evaluator now rejects CSV targets that differ from the current authoring batches before scoring. Source-value digest, all exported messages, disjoint topic splits, probability ranges, expected self-comparison blanks, NLI probability sums, exact scored-text hashes and paired change means were checked. The FK formula was independently reconciled for all 750 targets. The original-column digest still matches Section 7's checkpoint.
+
+Observed new mean FK: High 14.8545, Mid 7.2970, Low 5.4587. All three paired contrasts have Bonferroni-adjusted p < 7e-74. Mid/Low semantic similarity improved from 0.7895/0.7640 to 0.9374/0.9175; ROUGE-Lsum F1 from 0.2552/0.2380 to 0.5774/0.5151; NLI entailment from 0.3554/0.3182 to 0.9319/0.9053. Both conditions use identical corrected High references. **ROUGE, semantic-loss and entailment gaps between new Mid and Low remain statistically significant. Do not claim information parity, equivalence, expert certification or successful fine-tuning.**
+
+`IND_06` remains the only within-topic ordering exception because its original grade bands are incompatible. Do not silently exclude it or relax the bands. The candidate files include it with provenance and caveats.
+
+The underlying request was to regenerate responses for **all 250 topic groups** directly with the assistant, not Qwen. Each group has High, Mid and Low answers: 750 targets in total, including 500 Mid/Low rewrites. High could be corrected against authoritative sources where necessary. Existing CSV answer columns were preserved; the new set is in its own column.
 
 ## 2. User's research goal
 
@@ -34,7 +48,7 @@ Do not promise a mathematical global maximum of similarity, or statistical equiv
 - User GPU: NVIDIA RTX 5060 Ti, 16 GB VRAM.
 - Local model targeted in earlier generation notebooks: Qwen3.5-4B. The unfinished manual-authoring task does **not** use that model to generate targets.
 - Dependencies: `requirements.txt`; the existing environment has pandas, textstat, scipy, transformers, torch and evaluation dependencies installed.
-- The latest date supplied by the user/client is 17 October 2026. Earlier source checks were mostly conducted on 15 October 2026. Do not silently describe dated legal explanations as current law forever.
+- The latest date supplied by the user/client is 28 October 2026. Earlier source checks were mostly conducted on 15 October 2026. The final readability revisions did not constitute a fresh legal-source audit. Do not silently describe dated legal explanations as current law forever.
 
 Git state immediately before this handoff edit:
 
@@ -109,10 +123,10 @@ Cross-reviews already applied:
 - B revised root LAB_09–15, A's ENV batch and A's IND batch.
 - Root reviewed low-NLI HUM_01, added the family-of-four arithmetic example to High, and explicitly retained response-stage, access-monitoring and vulnerable-group details in Mid/Low.
 - A read-only second review led root to retain “rather than replacing local groups” in HUM_05 Low, maintenance responsibility in HUM_08 Low, and phone-version variability in SEC_05 Low.
-- C finished its own 70 groups and intended to revise A's consumer-rights batch, but **the saved CON batch still has 18 FK failures**. Do not assume that intended work happened.
+- C finished its own 70 groups. Its intended consumer-rights revisions had not landed at the old handoff; a new directly authoring assistant completed that batch on 28 October. All 20 CON Mid/Low answers now pass their bounds and all 10 CON groups are ordered High > Mid > Low.
 - Earlier agents encountered usage limits. At the handoff check, no child agents were running. Another model must not assume their processes or memory survive migration.
 
-## 7. Exact current state: not assembled, not finished
+## 7. Historical 17 October snapshot — superseded by Section 1
 
 Read-only validation on 17 October 2026:
 
@@ -228,11 +242,11 @@ Every batch retains per-topic source links and review notes. Read the actual gro
 
 Material source limitations are recorded for, among others, blocked Facebook terms, unavailable Amazon notice, unspecified Foodpanda country/edition clauses, full paid IEC/ASME texts and blocked French legal-deposit text. Conditional explanations are intentional. They are not evidence that every current policy was independently verified. Some older rejected claims appear only as explicit corrections; do not add those false-original entities to every level merely to raise raw counts.
 
-## 11. Resume checklist after user authorization
+## 11. Recheck or continue after user authorization
 
 1. Read this file, `docs/literacy_adaptation_metric_ranges.md`, the relevant batches, and applicable repository/assistant instructions. Check Git status; preserve unrelated user changes.
-2. Re-run read-only assembly validation to refresh the remaining-failure list.
-3. Directly revise only `CRI_10` Low and the failing CON Mid/Low prose. Keep High and the source-corrected factual brief intact unless a demonstrated factual correction is needed. Define dense terms and use genuinely simpler sentences; do not delete exceptions or add filler to game FK. Leave enough margin that a tiny edit does not fail the bound.
+2. Re-run read-only assembly validation. The completed state has no FK failures; do not use the historical table as a reason to rewrite completed responses.
+3. If the user requests further revisions, preserve the source-corrected factual brief and original CSV columns. Define dense terms and use genuinely simpler sentences; do not delete exceptions or add filler to game FK. Reassemble and rescore changed texts rather than carrying old scores forward.
 4. Validate all 500 Mid/Low bounds and all 250 cross-level orders, retaining the explicit IND_06 exception. Check duplicates, formatting, thinking tags, numbers and practical safeguards. Describe claim-level reviews as spot checks unless all claims are actually checked.
 5. Assemble and evaluate:
 
@@ -255,4 +269,4 @@ venv/bin/python src/evaluate_manual_full_set.py
 - Keep brief progress updates during long work. Do not label drafts, a warm cache, or unrun scripts as completed final outputs.
 - The original environment offered data-analysis/notebook/validation skills; another runtime should follow its own applicable skill instructions, not depend on inaccessible local skill paths or old agent IDs.
 
-Suggested restart message for another assistant: “Read `codex.md` and the cited project files. Continue the unfinished direct-authored 250-group dataset from the saved batches. Fix the remaining readability violations, preserve the factual brief and original CSV columns, then assemble and evaluate. Do not regenerate everything from scratch or use Qwen to write the targets.”
+Suggested restart message for another assistant: “Read `codex.md`, starting with the completed 28 October state in Section 1, and inspect the actual files. All 250 groups are assembled and locally scored. Continue only the next task I request; do not treat the historical 19-violation snapshot as current, regenerate the set from scratch, or start training/API calls without authorization.”
